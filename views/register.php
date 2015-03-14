@@ -4,49 +4,17 @@
 	<div class="col-md-1"></div>
 	<div class="col-md-6">
 
-		
-<div class="container">
-    <div class="row">
-        <div class="col-md-6 col-md-offset-3">
-        	<form class="form-horizontal well" role="form">
-        			<div class="col-xs-4">
-        				<img src="http://placehold.it/160x100" class="img-responsive img-radio">
-        				<button type="button" class="btn btn-primary btn-radio">Left</button>
-        				<input type="checkbox" id="left-item" class="hidden">
-        			</div>
-        			<div class="col-xs-4">
-        				<img src="http://placehold.it/160x100" class="img-responsive img-radio">
-        				<button type="button" class="btn btn-primary btn-radio">Middle</button>
-        				<input type="checkbox" id="middle-item" class="hidden">
-        			</div>
-        			<div class="col-xs-4">
-        				<img src="http://placehold.it/160x100" class="img-responsive img-radio">
-        				<button type="button" class="btn btn-primary btn-radio">Right</button>
-        				<input type="checkbox" id="right-item" class="hidden">
-        			</div>
-        		</div>
-        		<div class="row space-20">
-        			<div class="col-xs-12">
-        				<div class="form-group">
-        					<label for="inputTitle" class="col-sm-2 control-label">Title</label>
-        					<div class="col-sm-10">
-        						<input type="text" class="form-control" id="inputTitle">
-        					</div>
-        				</div>
-        			</div>
-        		</div>
-        	</form>
-        </div>
-    </div>
-</div>
 
+<ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active">HUR</li>
+    <li role="presentation">VAD</li>
+    <li role="presentation">VERIFERIA</li>
+    <li role="presentation">KLAR</li>
+  </ul>
+  <div class="tab-content">
 
-
-		<div id="hur">
+			<div role="tabpanel" class="tab-pane active" id="hur">
 			<h1>HUR</h1>
-			<table class="table"><tr>
-				<td class="wizardactivetab">Hur</td><td>Vad</td><td>Verifiera</td><td>Klar</td>
-			</tr></table>
 			<label class="radio-inline">
 				<input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> SMS
 			</label>
@@ -56,12 +24,10 @@
 			<label class="radio-inline">
 				<input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> Mail
 			</label>
+							<a href="#vad" aria-controls="messages" role="tab" data-toggle="tab">Nästa</a>
 		</div>
-		<div id="vad">
+		<div role="tabpanel" class="tab-pane" id="vad">
 			<h1>VAD</h1>
-			<table class="table"><tr>
-				<td>Hur</td><td class="wizardactivetab">Vad</td><td>Verifiera</td><td>Klar</td>
-			</tr></table>
 			<div class="row">
 				<div class="col-md-6">
 					<form class="form-horizontal">
@@ -69,17 +35,6 @@
 							<label for="inputLan" class="col-sm-2 control-label">Län</label>
 							<div class="col-sm-10">
 								<input type="Lan" class="form-control" id="inputEmail3" placeholder="Län">
-
-		 <ul class="nav nav-tabs" role="tablist">
-    <li role="presentation" class="active">HUR</li>
-    <li role="presentation">VAD</li>
-    <li role="presentation">VERIFERIA</li>
-    <li role="presentation">KLAR</li>
-  </ul>
-		<div class="tab-content">
-			<div role="tabpanel" class="tab-pane active" id="hur">
-				<h1>HUR</h1>
-
 
 							</div>
 							<div class="form-group">
@@ -111,7 +66,7 @@
 					</label>
 
 				</div>
-				<a href="#veri" aria-controls="messages" role="tab" data-toggle="tab">VERIFIERA</a>
+				<a href="#klar" aria-controls="messages" role="tab" data-toggle="tab">VERIFIERA</a>
 			</div>
 		</div>
 			
