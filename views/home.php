@@ -5,20 +5,18 @@
     <script type="text/javascript" src="js/mapFunctions.js"></script>
 
     </script>
+<div class="row" style="margin-top:0px;">
+      <div class="col-md varsko-information_2">
 
-<div class="container">
-
-<div class="row text-center">
-      <div class="col-md varsko-information">
-      <p>
-        Varsko låter dig få reda på samhällsinformation via sms eller mail. Genom att ni anger ett kontaktsätt samt ett intresseområde kan vi meddela er om något händer i erat område. Tjänsten är kostnadsfri samt fri från reklam. Ingen data om er som person sparas eller delas.
-      </p>
+<img src="img/logo_w.png" alt="" class="img-responsive" style="margin-top:12.5%;">
+  <div class="col-md-6"><p><i>Vi informerar dig om olyckor och katastrofer via SMS och mail.</i><p></div>
+  
          
       </div>
   </div>
 
 
-	<div class="row text-center">
+	<div class="row text-center" style="min-height:640px;">
 		<div class="col-md-6">
       <div id="map-canvas" style="width:auto; height:80%;">
 			</div>
@@ -30,7 +28,7 @@
         </ul>
   		</div>
   </div>
-</div>
+
 <div class="row text-center">
       <div class="col-md varsko-information" style="padding-top:100px;">
 
@@ -61,7 +59,7 @@ sociala medier
 
 
       </div>
-  </div>
+
 
   <div class="row text-center" style="margin-bottom:100px; margin-top:100px;">
 <div class="col-md-1 text-center">
