@@ -21,6 +21,7 @@
 	      <input type="Tel" class="form-control" id="inputTel" placeholder="Telefonnummer">
 	    </div>
 	  </div>
+	  <button type="submit" class="btn btn-danger">Anmäl</button>
 	</form>
   </div>
 
