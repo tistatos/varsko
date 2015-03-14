@@ -28,7 +28,7 @@
   <div class="menu pull-right white">
     <a href="<?php echo $base; ?>" class="white"> Start</a> |
     <?php if($user->isSigned()) { ?>
-      <a href="<?php echo $base.'/updateUser'; ?>" class="white"> Uppdatera mina uppgifter</a> |
+      <a href="<?php echo $base.'/myInfo'; ?>" class="white"> Uppdatera mina uppgifter</a> |
       <a href="<?php echo $base.'/logout'; ?>" class="white"> Logga ut</a>
     <?php } else { ?>
       <a href="<?php echo $base.'/login'; ?>" class="white"> Logga in</a> |

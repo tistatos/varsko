@@ -27,7 +27,7 @@ else
 ?>
 
 <div class="row">
-  Du är nu inloggad
+  Du är nu inloggad...
 </div>
 
-<?php redirect("myinfo", 3);
+<?php redirect("myInfo", 3);

@@ -199,3 +199,7 @@ input[type=checkbox]:checked + label.checkbox-label {
   opacity: 1;
   -webkit-transform: scale(1.1,1.1);
 }
+
+.btn-success {
+  background-color: #00C781;
+}
