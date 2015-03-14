@@ -26,3 +26,4 @@ include ('template/header.php');
 include ( $pageView);
 include ('template/footer.php');
 
+?>
