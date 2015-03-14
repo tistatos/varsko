@@ -4,8 +4,13 @@ function initialize() {
     zoom: 4,
     disableDefaultUI: false,
     draggable: false,
+<<<<<<< Updated upstream
     maxZoom: 20,
     minZoom: 0,
+=======
+    maxZoom: 4,
+    minZoom: 4,
+>>>>>>> Stashed changes
     zoomControl: false,
     streetViewControl: false,
     overviewMapControl: false,
@@ -121,9 +126,9 @@ var hilightEvents = function(lancode)
 var setColor = function(featureProperty)
 {
   if(featureProperty === 'yes')
-    return 'red'; // the areas active
+    return '#D90036'; // the areas active
   else
-    return '#57ab6d'; //passive areas
+    return '#00C781'; //passive areas
 }
 
 
