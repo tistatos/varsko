@@ -4,13 +4,8 @@ function initialize() {
     zoom: 4,
     disableDefaultUI: false,
     draggable: false,
-<<<<<<< Updated upstream
     maxZoom: 20,
     minZoom: 0,
-=======
-    maxZoom: 4,
-    minZoom: 4,
->>>>>>> Stashed changes
     zoomControl: false,
     streetViewControl: false,
     overviewMapControl: false,
