@@ -98,3 +98,36 @@ footer {
 .activeEvent {
   border: 1px solid #48ac73
 }
+
+.activeEventHeader {
+  background-color: #48ac73;
+  color: white;
+  margin-top: 0px;
+  padding-top: 10px;
+  margin-bottom: 0px;
+  height: 5%;
+}
+
+
+#eventsNow {
+  height: 75%;
+  overflow-y: scroll;
+  overflow-x:hidden;
+  border: 2px solid #48ac73;
+
+}
+
+#eventsNow > li {
+  width: 90%;
+  list-style-type: none;
+  text-align: left;
+}
+
+.eventPlace {
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.eventDate {
+
+}
