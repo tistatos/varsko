@@ -59,11 +59,11 @@ if(count($_POST))
 
             <div class="form-group">
                 <label>Län: </label>
-                <input name="website" type="text" value="<?php echo $user->lan?>" class="form-control">
+                <input name="lan" type="text" value="<?php echo $user->lan?>" class="form-control">
             </div>
             <div class="form-group">
                 <label>Kommun: </label>
-                <input name="website" type="text" value="<?php echo $user->kommun?>" class="form-control">
+                <input name="kommun" type="text" value="<?php echo $user->kommun?>" class="form-control">
             </div>
 
             <div class="form-group text-center">
