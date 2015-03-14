@@ -5,10 +5,12 @@
     <script type="text/javascript" src="js/mapFunctions.js"></script>
 
     </script>
-<div class="row text-center" style="margin-top:0px;">
+<div class="row" style="margin-top:0px;">
       <div class="col-md varsko-information_2">
 
 <img src="img/logo_w.png" alt="" class="img-responsive" style="margin-top:12.5%;">
+  <div class="col-md-6"><p><i>Vi informerar dig om olyckor och katastrofer via SMS och mail.</i><p></div>
+  
          
       </div>
   </div>
