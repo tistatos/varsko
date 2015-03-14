@@ -1,7 +1,12 @@
 <h1>Anmäl iaktagelse</h1>
-<p>Skicka//Verifiera//Färdigt</p>
+
+
+<table>
+<tr>
+<td class="active">Anmäl</td><td>Verifiera</td><td>Klar</td>
+</tr>
+</table>
 <div class="row">
-  <div class="col-md-6">
 	<form class="form-horizontal">
 	  <div class="form-group">
 	    <label for="inputVart" class="col-sm-2 control-label">Vart</label>
@@ -23,18 +28,18 @@
 	  </div>
 	  <button type="submit" class="btn btn-danger">Anmäl</button>
 	</form>
-  </div>
 
 
-<p>Skicka//Verifiera//Färdigt</p>
+<td>Anmäl</td><td class="active">Verifiera</td><td>Klar</td>
+<h1>Verifiera</h1>
 <form class="form-inline">
   <div class="form-group">
     <label for="inputVerify" class="sr-only">Verifiera</label>
     <input type="Verify" class="form-control" id="inputVerify" placeholder="Verify">
   </div>
-  <button type="submit" class="btn btn-default">Verifiera</button>
+  <button type="submit" class="btn btn-danger">Verifiera</button>
 </form>
-<h1>KLART</h1>
 
-<p>Skicka//Verifiera//Färdigt</p>
+<td>Anmäl</td><td>Verifiera</td><td class="active">Klar</td>
+<h1>KLART</h1>
 <p>Kanonbra, nu är det färdigt!</p>
