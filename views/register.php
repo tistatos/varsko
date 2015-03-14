@@ -47,7 +47,7 @@
 				<button href="#vad" aria-controls="messages" role="tab" data-toggle="tab" class="btn btn-default btn-next" type="submit">Nästa</button>
 			</div>
 			<div role="tabpanel" class="tab-pane" id="vad">
-				<h3 style="margin-bottom:50px;">Vilka områden</h3>
+				<h3 style="margin-bottom:50px;">Vilka områden och vilken information?</h3>
 				<div class="row">
 					
 					<div class="col-md-6">
@@ -77,19 +77,19 @@
 					
 					<div class="col-md-6">
 						<label class="checkbox">
-							<input type="checkbox" id="inlineCheckbox1" value="1" checked> Brand
+							<input type="checkbox" id="inlineCheckbox1" value="1" checked> <img src="img/fire_black.png" alt="" style="height:3%;"> Brand
 						</label>
 						<label class="checkbox">
-							<input type="checkbox" id="inlineCheckbox2" value="1" checked> Strömavbrott/El
+							<input type="checkbox" id="inlineCheckbox2" value="1" checked> <img src="img/blackout.png" alt="" style="height:3%;">Strömavbrott/El
 						</label>
 						<label class="checkbox">
-							<input type="checkbox" id="inlineCheckbox3" value="1"checked> Översvämning
+							<input type="checkbox" id="inlineCheckbox3" value="1"checked> <img src="img/flooding.png" alt="" style="height:3%;">Översvämning
 						</label>
 						<label class="checkbox">
-							<input type="checkbox" id="inlineCheckbox4" value="1"checked> Väder/Storm
+							<input type="checkbox" id="inlineCheckbox4" value="1"checked> <img src="img/blow_black.png" alt="" style="height:3%;">Väder/Storm
 						</label>
 						<label class="checkbox">
-							<input type="checkbox" id="inlineCheckbox5" value="1"checked> Utsläpp (luft/vatten)
+							<input type="checkbox" id="inlineCheckbox5" value="1"checked> <img src="img/airpollution_black.png" alt="" style="height:3%;">Utsläpp (luft/vatten)
 						</label>
 
 					</div>
