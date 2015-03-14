@@ -97,17 +97,9 @@
 					</div>		
 					<p>Vi behöver veta att du verkligen är du. Ett SMS med en kod skickas till dig inom några minuter. Skriv verifieringskoden i fältet ovan.</p>	
 				</form>
-<<<<<<< HEAD
-
 				<button style="float: right"href="#vad" aria-controls="messages" role="tab" data-toggle="tab" class="btn btn-default btn-prev" type="submit">Föregående</button>
 				<button style="float: right"href="#klar" aria-controls="messages" role="tab" data-toggle="tab" class="btn btn-success btn-next" type="submit">Registrera</button>
 
-=======
-				<button style="float: right" href="#klar" aria-controls="messages" role="tab" data-toggle="tab" class="btn btn-danger btn-next" type="button">Registrera</button>
-				<button style="float: right" href="#vad" aria-controls="messages" role="tab" data-toggle="tab" class="btn btn-default btn-prev" type="submit">Föregående</button>
-				<button href="#vad" aria-controls="messages" role="tab" data-toggle="tab" class="btn btn-default btn-prev" type="submit">Föregående</button>
-				<button href="#klar" aria-controls="messages" role="tab" data-toggle="tab" class="btn btn-success btn-next" type="submit">Registrera</button>
->>>>>>> FETCH_HEAD
 			</div>
 			<div role="tabpanel" class="tab-pane" id="klar">
 				<h1>Klart!</h1>
