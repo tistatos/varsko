@@ -39,9 +39,9 @@ footer {
 {
   background-color: #48ac73;
 }
-.wizardunactivetab
+.nav-tabs li
 {
-  background-color: #ABABAB;
+  padding: 2% 2%;
 }
 
 .row {
