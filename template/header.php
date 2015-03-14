@@ -21,16 +21,16 @@
 <body>
 <header>
   <div class="logo">
-    <img src="img/logo.png" alt="">
+    <img src="img/logo_w.png" alt="">
   </div>
-  <div class="menu pull-right">
-    <a href="<?php echo $base; ?>"> Start</a> |
+  <div class="menu pull-right white">
+    <a href="<?php echo $base; ?>" class="white"> Start</a> |
     <?php if($user->isSigned()) { ?>
-      <a href="<?php echo $base.'/updateUser'; ?>"> Uppdatera mina uppgifter</a> |
-      <a href="<?php echo $base.'/logout'; ?>"> Logga ut</a>
+      <a href="<?php echo $base.'/updateUser'; ?>" class="white"> Uppdatera mina uppgifter</a> |
+      <a href="<?php echo $base.'/logout'; ?>" class="white"> Logga ut</a>
     <?php } else { ?>
-      <a href="<?php echo $base.'/login'; ?>"> Logga in</a> |
-      <a href="<?php echo $base.'/signup'; ?>"> Registera nytt konto</a>
+      <a href="<?php echo $base.'/login'; ?>" class="white"> Logga in</a> |
+      <a href="<?php echo $base.'/signup'; ?>" class="white"> Registera nytt konto</a>
     <?php } ?>
   </div>
 </header>

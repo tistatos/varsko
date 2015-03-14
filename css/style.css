@@ -1,19 +1,18 @@
 html, body {
-  margin : 0;
-  padding: 0;
+  width: 100%;
   height: 100%;
-}
-a {
-  color: black;
+  margin : 0px;
+  padding: 0px;
 }
 
 header{
   height: auto;
   float: none;
-  background-color: gray;
+  background-color: #48ac73;
   padding: 10px;
   position: relative;
   margin-bottom: 20px;
+  margin: 0;
 }
 
 header > .logo img{
@@ -24,6 +23,8 @@ margin-left: 40px;
 
 
 header > .menu{
+    height: auto;
+    position: relative;
     margin-top: 0px;
     margin-right: 10px;
 }
@@ -33,7 +34,7 @@ header > .menu{
 
 footer {
   bottom: 0px;
-  background-color: gray;
+  background-color: #48ac73;
   width: 100%;
 }
 
@@ -55,10 +56,36 @@ footer {
   -o-background-size: cover;
   background-size: cover;
   color:#fff;
-  height: 720px;
+  min-height: 720px;
 }
 
 .varsko-information p{
   font-size: 3em;
   font-weight: 200;
+}
+
+.gron{
+  color: #48ac73;
+}
+
+.white{
+  color: #fff;
+}
+
+.grey_block {
+  color: #fff;
+  padding: 10px;
+  padding-bottom: 30px;
+  background-color: #545454;
+  border-radius: 5px;
+  border:#48ac73 5px solid;
+}
+
+.block {
+  color: #48ac73;
+  padding: 10px;
+  padding-bottom: 30px;
+  background-color: #fff;
+  border-radius: 5px;
+  border:#48ac73 5px solid;
 }
