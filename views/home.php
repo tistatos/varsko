@@ -89,7 +89,7 @@
               <h2>Sociala medier</h2>
           </div>
 
- <h1 style="margin-top:100px;">
+ <h1 style="padding-top:200px;">
           Din samhällsinformation via sms, mail eller
 sociala medier
 
