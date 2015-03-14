@@ -83,6 +83,7 @@ sociala medier
 	  	<a href="report">
       <button type="submit" class="btn btn-danger">Anmäl</button>
       </a>
+
 	  </div>
 <div class="col-md-1 text-center">
 </div>
