@@ -61,7 +61,8 @@ function initialize() {
     return ({
       strokeWeight: 2,
       fillColor: setColor(feature.getProperty('happening')),
-      strokeColor: 'white'
+      strokeColor: 'white',
+      fillOpacity: 1
     })
   });
 
@@ -121,7 +122,7 @@ var hilightEvents = function(lancode)
 var setColor = function(featureProperty)
 {
   if(featureProperty === 'yes')
-    return '#D90036'; // the areas active
+    return '#d9534f'; // the areas active
   else
     return '#00C781'; //passive areas
 }
