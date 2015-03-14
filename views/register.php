@@ -1,4 +1,9 @@
-<table class="table">
+<div class="row">
+  <div class="col-md-1"></div>
+  <div class="col-md-1"></div>
+  <div class="col-md-1"></div>
+  <div class="col-md-6">
+  <table class="table">
 	<tr>
 		<td class="wizardactivetab">Hur</td><td>Vad</td><td>Verifiera</td><td>Klar</td>
 	</tr>
@@ -80,3 +85,7 @@
 </table>
 <h1>KLART</h1>
 <p>Kanonbra, nu är det färdigt!</p>
+</div>
+<div class="col-md-1"></div>
+<div class="col-md-1"></div>
+<div class="col-md-1"></div>

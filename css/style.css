@@ -39,7 +39,11 @@ footer {
 
 .wizardactivetab
 {
-  background-color: black;
+  background-color: #7ef79e;
+}
+.wizardunactivetab
+{
+  background-color: #ABABAB;
 }
 
 .row {
