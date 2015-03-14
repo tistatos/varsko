@@ -21,7 +21,7 @@
 <body>
 <header>
   <div class="logo">
-    <img src="img/logo.png" alt="">
+    <a href="index.php"><img src="img/logo.png" alt=""></a>
   </div>
   <div class="menu pull-right">
     <a href="<?php echo $base; ?>"> Start</a> |
