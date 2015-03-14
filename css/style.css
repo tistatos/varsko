@@ -42,6 +42,8 @@ footer {
 .nav-tabs li
 {
   padding: 2% 2%;
+  width: 25%;
+  text-align: center;
 }
 
 .row {
