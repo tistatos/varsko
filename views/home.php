@@ -66,10 +66,10 @@
           <h2>Mail</h2>
           </div>
             <div class="col-md-4 text-center">
-              <img src="img/report_w.png" alt="" style="height:12%;">
+              <img src="img/facebook_twitter_w.png" alt="" style="height:12%;">
               <h2>Sociala medier</h2>
           </div>
-      <p style="padding-top:140px;">
+      <p style="padding-top:150px;">
         Varsko låter dig få reda på samhällsinformation via sms eller mail. Genom att ni anger ett kontaktsätt samt ett intresseområde kan vi meddela er om något händer i erat område. Tjänsten är kostnadsfri samt fri från reklam. Ingen data om er som person sparas eller delas.
       </p> 
 
@@ -82,7 +82,7 @@
 	  <div class="col-md-4 text-center">
 	  	<h1>Registrera</h1>
       <img src="img/register.png" alt="" style="height:12%; margin:40px;">
-	  	<p>Här kan du registrera dig för tjänsten</p>
+	  	<p>Här kan du registrera dig för tjänsten. Det är gratis och reklamfritt. För att registrera dig på tjänsten krävs det att du har aningen en fungeranad mail eller en mobiltelefon som kan ta emot sms.</p>
       <a href="register">
 	  	  <button type="submit" class="btn btn-default">Registrera</button>
       </a>
@@ -94,7 +94,7 @@
 	  <div class="col-md-4 text-center">
 	  	<h1>Anmäl iaktagelse</h1>
       <img src="img/report.png" alt="" style="height:12%; margin:40px;">
-	  	<p>Här kan du anmäla en iaktagelse</p>
+	  	<p>Här kan du anmäla en iaktagelse. Kom ihåg att ringa 112 för akuta ärenden eller 114 14. För att anmäla en iaktagelse krävs det att du har en fungeranad mail eller en mobiltelefon som kan ta emot sms. </p>
 	  	<button type="submit" class="btn btn-danger">Anmäl</button>
 	  </div>
 <div class="col-md-1 text-center">
