@@ -138,3 +138,8 @@ footer {
 .eventDate {
 
 }
+
+.eventIcon {
+  width: 32px;
+  height: 32px;
+}

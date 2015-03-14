@@ -1,78 +1,24 @@
  <script type="text/javascript"
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAcxFaGz1aSDhl2f0eWsBiHlKC0-8K5pu8">
     </script>
-    <script type="text/javascript"
-      src="js/mapstyle.js"></script>
-    <script type="text/javascript">
-      function initialize() {
-        var mapOptions = {
-          center: { lat: 62.19, lng: 18.03},
-          zoom: 5,
-          disableDefaultUI: false,
-          draggable: false,
-          maxZoom: 5,
-          minZoom: 5,
-          zoomControl: false,
-          streetViewControl: false,
-          overviewMapControl: false,
-          mapTypeControl: false
-        };
+    <script type="text/javascript" src="js/mapstyle.js"></script>
+    <script type="text/javascript" src="js/mapFunctions.js"></script>
 
-        var map = new google.maps.Map(document.getElementById('map-canvas'),
-            mapOptions);
-        map.data.addListener('addfeature', function(event) {
-          var lansnamn = event.feature.getProperty('LANSNAMN');
-          if(lansnamn === '')
-          {
-            var omrade = event.feature.getProperty('Omradenamn');
-            var besk = event.feature.getProperty('Beskrivnin');
-            var html = '<li><h2>' + omrade + '</h2>' + '<p>' + besk +'<p></li>';
-
-            $('#eventsNow').append(html);
-            event.feature.setGeometry(undefined);
-
-          }
-        });
-        map.data.loadGeoJson("geojson/allData.geojson");
-
-        map.setOptions({styles: styles});
-        map.data.setStyle(function(feature){
-          return ({
-            strokeWeight: 1,
-            fillColor: setColor(feature.getProperty('LANSNAMN'))
-          })
-        });
-
-        // map.data.addListener('mouseover', function(event) {
-        //   map.data.revertStyle();
-        //   console.log(event.feature.getId())
-        //   console.log(event.feature.getProperty('FranDatum'))
-        //   map.data.overrideStyle(event.feature, {strokeWeight: 8});
-        // });
-      }
-
-      var setColor = function(featureProperty)
-      {
-        if(featureProperty != '')
-          return 'gray';
-        else
-          return 'red';
-      }
-
-      google.maps.event.addDomListener(window, 'load', initialize);
     </script>
 
-
+<div class="container">
 	<div class="row text-center">
-		<div class="col-md-8">
-			<div id="map-canvas" style="width:auto; height:80%;">
+		<div class="col-md-6">
+      <div id="map-canvas" style="width:auto; height:80%;">
 			</div>
+      <div><p> Data tagen ifrån Lantmäteriet och MSB</p></div>
 		</div>
-  		<div class="col-md-4 text-center">
-  			<h3>Listade händelser</h3>
+  		<div class="col-md-6">
+  			<h3 class="ActiveEventHeader">Händelser</h3>
         <ul id="eventsNow">
         </ul>
   		</div>
+  </div>
 </div>
   <div class="row text-center">
       <div class="col-md varsko-information" style="padding-top:100px;">
