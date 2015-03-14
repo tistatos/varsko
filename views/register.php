@@ -65,21 +65,21 @@
 							</div>
 						</form>
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-6" style="padding-left:40px;">
 						<label class="checkbox">
-							<input type="checkbox" id="inlineCheckbox1" value="1" checked> <img src="img/fire_black.png" alt="" style="height:3%;"> Brand
+							<input type="checkbox" id="inlineCheckbox1" value="1" checked> <img src="img/fire_black.png" alt="" style="height:3%;padding-left:5px;padding-right:10px;">Brand
 						</label>
 						<label class="checkbox">
-							<input type="checkbox" id="inlineCheckbox2" value="1" checked> <img src="img/blackout.png" alt="" style="height:3%;">Strömavbrott/El
+							<input type="checkbox" id="inlineCheckbox2" value="1" checked> <img src="img/blackout.png" alt="" style="height:3%;padding-left:5px;padding-right:10px;">Strömavbrott/El
 						</label>
 						<label class="checkbox">
-							<input type="checkbox" id="inlineCheckbox3" value="1"checked> <img src="img/flooding.png" alt="" style="height:3%;">Översvämning
+							<input type="checkbox" id="inlineCheckbox3" value="1"checked> <img src="img/flooding.png" alt="" style="height:3%;padding-left:5px;padding-right:10px;">Översvämning
 						</label>
 						<label class="checkbox">
-							<input type="checkbox" id="inlineCheckbox4" value="1"checked> <img src="img/blow_black.png" alt="" style="height:3%;">Väder/Storm
+							<input type="checkbox" id="inlineCheckbox4" value="1"checked> <img src="img/storm.png" alt="" style="height:3%;padding-left:5px;padding-right:10px;">Väder/Storm
 						</label>
 						<label class="checkbox">
-							<input type="checkbox" id="inlineCheckbox5" value="1"checked> <img src="img/airpollution_black.png" alt="" style="height:3%;">Utsläpp (luft/vatten)
+							<input type="checkbox" id="inlineCheckbox5" value="1"checked> <img src="img/airpollution_black.png" alt="" style="height:3%;padding-left:5px;padding-right:10px;">Utsläpp (luft/vatten)
 						</label>
 
 					</div>
@@ -99,6 +99,8 @@
 				</form>
 				<button style="float: right" href="#klar" aria-controls="messages" role="tab" data-toggle="tab" class="btn btn-danger btn-next" type="button">Registrera</button>
 				<button style="float: right" href="#vad" aria-controls="messages" role="tab" data-toggle="tab" class="btn btn-default btn-prev" type="submit">Föregående</button>
+				<button href="#vad" aria-controls="messages" role="tab" data-toggle="tab" class="btn btn-default btn-prev" type="submit">Föregående</button>
+				<button href="#klar" aria-controls="messages" role="tab" data-toggle="tab" class="btn btn-success btn-next" type="submit">Registrera</button>
 			</div>
 			<div role="tabpanel" class="tab-pane" id="klar">
 				<h1>Klart!</h1>
