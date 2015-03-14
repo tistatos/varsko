@@ -8,7 +8,7 @@ html, body {
 header{
   width: 100%;
   height: auto;
-  background-color: #48ac73;
+  background-color: #00C781;
   padding: 10px;
   position: relative;
   margin: 0;
@@ -32,13 +32,13 @@ margin-left: 40px;
 
 footer {
   bottom: 0px;
-  background-color: #48ac73;
+  background-color: #00C781;
   width: 100%;
 }
 
 .wizardactivetab
 {
-  background-color: #48ac73;
+  background-color: #00C781;
 }
 .nav-tabs li
 {
@@ -79,7 +79,7 @@ footer {
 }
 
 .gron{
-  color: #48ac73;
+  color: #00C781;
 }
 
 .white{

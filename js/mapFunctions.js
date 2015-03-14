@@ -4,13 +4,8 @@ function initialize() {
     zoom: 4,
     disableDefaultUI: false,
     draggable: false,
-<<<<<<< Updated upstream
     maxZoom: 20,
     minZoom: 0,
-=======
-    maxZoom: 4,
-    minZoom: 4,
->>>>>>> Stashed changes
     zoomControl: false,
     streetViewControl: false,
     overviewMapControl: false,
@@ -66,7 +61,8 @@ function initialize() {
     return ({
       strokeWeight: 2,
       fillColor: setColor(feature.getProperty('happening')),
-      strokeColor: 'white'
+      strokeColor: 'white',
+      fillOpacity: 1
     })
   });
 
@@ -126,7 +122,7 @@ var hilightEvents = function(lancode)
 var setColor = function(featureProperty)
 {
   if(featureProperty === 'yes')
-    return '#D90036'; // the areas active
+    return '#d9534f'; // the areas active
   else
     return '#00C781'; //passive areas
 }
