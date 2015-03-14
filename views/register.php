@@ -115,4 +115,5 @@
 	<div class="col-md-1"></div>
 	<div class="col-md-1"></div>
 	<div class="col-md-1"></div>
+</div>
 	<script type="text/javascript" src="js/register.js"></script>
