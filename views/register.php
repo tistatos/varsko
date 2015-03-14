@@ -38,11 +38,8 @@
 						<input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
 					</label>
 				</div>
-
-		
-				
 				<p style="margin-top:250px;">För att genomföra registreringen krävs det att ni har en fungerande mail eller mobiltelefon.</p>
-				<button href="#vad" style="float: right" aria-controls="messages" role="tab" data-toggle="tab" class="btn btn-default btn-next" type="submit">Nästa</button>
+				<button href="#vad" style="float: right" aria-controls="messages" role="tab" data-toggle="tab" class="btn btn-default btn-next" type="button">Nästa</button>
 			</div>
 			<div role="tabpanel" class="tab-pane" id="vad">
 				<h3 style="margin-bottom:50px;">Vilka områden och vilken information?</h3>
@@ -64,15 +61,10 @@
 									<label for="Kommun" class="control-label">Kommun</label>
 									
 									<input type="Kommun" class="form-control" id="inputPassword3" placeholder="Kommun">
-									
 								</div>
-
 							</div>
 						</form>
-
-
 					</div>
-					
 					<div class="col-md-6" style="padding-left:40px;">
 						<label class="checkbox">
 							<input type="checkbox" id="inlineCheckbox1" value="1" checked> <img src="img/fire_black.png" alt="" style="height:3%;padding-left:5px;padding-right:10px;">Brand
@@ -92,11 +84,8 @@
 
 					</div>
 				</div>
-
-				<button style="float: right" href="#veri" aria-controls="messages" role="tab" data-toggle="tab" class="btn btn-default btn-next" type="submit">Nästa</button>
-				<button style="float: right" href="#hur" aria-controls="messages" role="tab" data-toggle="tab" class="btn btn-default btn-prev" type="submit">Föregående</button>
-
-
+				<button style="float: right" href="#veri" aria-controls="messages" role="tab" data-toggle="tab" class="btn btn-default btn-next" type="button">Nästa</button>
+				<button style="float: right" href="#hur" aria-controls="messages" role="tab" data-toggle="tab" class="btn btn-default btn-prev" type="button">Föregående</button>
 			</div>
 			
 			<div role="tabpanel" class="tab-pane" id="veri">
@@ -105,19 +94,17 @@
 					<div class="form-group">
 						<label for="inputVerify" class="sr-only">verify</label>
 						<input type="verify" class="form-control" id="inputVerify" placeholder="Verifiera">
-					</div>			
+					</div>		
+					<p>Vi behöver veta att du verkligen är du. Ett SMS med en kod skickas till dig inom några minuter. Skriv verifieringskoden i fältet ovan.</p>	
 				</form>
-<<<<<<< Updated upstream
-				<button style="float: right" href="#klar" aria-controls="messages" role="tab" data-toggle="tab" class="btn btn-danger btn-next" type="submit">Registrera</button>
-				<button style="float: right" href="#vad" aria-controls="messages" role="tab" data-toggle="tab" class="btn btn-default btn-prev" type="submit">Föregående</button>
-=======
-				<button href="#vad" aria-controls="messages" role="tab" data-toggle="tab" class="btn btn-default btn-prev" type="submit">Föregående</button>
-				<button href="#klar" aria-controls="messages" role="tab" data-toggle="tab" class="btn btn-success btn-next" type="submit">Registrera</button>
->>>>>>> Stashed changes
+				<button style="float: right"href="#vad" aria-controls="messages" role="tab" data-toggle="tab" class="btn btn-default btn-prev" type="submit">Föregående</button>
+				<button style="float: right"href="#klar" aria-controls="messages" role="tab" data-toggle="tab" class="btn btn-success btn-next" type="submit">Registrera</button>
+
 			</div>
 			<div role="tabpanel" class="tab-pane" id="klar">
 				<h1>Klart!</h1>
 				<p>Kanonbra, nu är det färdigt!</p>
+				<a href="<?php echo $base; ?>">Återvänd</a>
 
 			</div>
 		</div>	
