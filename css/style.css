@@ -1,5 +1,6 @@
 html, body {
   margin : 0;
+  padding: 0;
   height: 100%;
 }
 a {
@@ -31,7 +32,6 @@ header > .menu{
 
 
 footer {
-  position: absolute;
   bottom: 0px;
   background-color: gray;
   width: 100%;
@@ -48,6 +48,17 @@ footer {
 }
 
 .varsko-information{
-  background-color: #57AB6D;
+  padding: 40px 80px;
+  background:url('../img/info_back.jpg')no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   color:#fff;
+  height: 720px;
+}
+
+.varsko-information p{
+  font-size: 3em;
+  font-weight: 200;
 }

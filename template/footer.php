@@ -1,10 +1,10 @@
 
-
-
-<div class="col-md footer">
+</div>
+</div>
+<footer>
 <p>Varsko - Bitch I'll warn ya<p>
-</div>
-</div>
-</div>
+</footer>
+
+
 </body>
 </html>
