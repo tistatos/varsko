@@ -4,12 +4,12 @@
   <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>Bootstrap 101 Template</title>
+    <title>Varsko</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -21,7 +21,11 @@
 <body>
 <header>
   <div class="logo">
+<<<<<<< HEAD
     <img src="img/logo_w.png" alt="">
+=======
+    <a href="index.php"><img src="img/logo.png" alt=""></a>
+>>>>>>> FETCH_HEAD
   </div>
   <div class="menu pull-right white">
     <a href="<?php echo $base; ?>" class="white"> Start</a> |
@@ -29,8 +33,13 @@
       <a href="<?php echo $base.'/updateUser'; ?>" class="white"> Uppdatera mina uppgifter</a> |
       <a href="<?php echo $base.'/logout'; ?>" class="white"> Logga ut</a>
     <?php } else { ?>
+<<<<<<< HEAD
       <a href="<?php echo $base.'/login'; ?>" class="white"> Logga in</a> |
       <a href="<?php echo $base.'/signup'; ?>" class="white"> Registera nytt konto</a>
+=======
+      <a href="<?php echo $base.'/login'; ?>"> Logga in</a> |
+      <a href="<?php echo $base.'/register'; ?>"> Registera nytt konto</a>
+>>>>>>> FETCH_HEAD
     <?php } ?>
   </div>
 </header>
