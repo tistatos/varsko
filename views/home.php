@@ -34,10 +34,17 @@
   			<h3>Listade händelser</h3>
 
   		</div>
+</div>
+  <div class="row text-center">
+<div class="col-md varsko-information">
 
-	</div>
+<img src="img/logo_w.png" alt="">
 
-	 <div class="row text-center">
+<p>Varsko låter dig få reda på samhällsinformation via sms eller mail. Genom att ni anger ett kontaktsätt samt et intresseområde kan vi meddela er om något händer i erat område. Tjänsten är kostnadsfri samt fri från reklam. Ingen data om er som person sparas eller delas.
+</p> 
+
+</div>
+
 
 	  <div class="col-md-6 text-center">
 	  	<h2>Registrera</h2>
