@@ -80,6 +80,7 @@ sociala medier
 	  	<h1>Anmäl iaktagelse</h1>
       <img src="img/report.png" alt="" style="height:12%; margin:40px;">
 	  	<p>Här kan du anmäla en iaktagelse. Kom ihåg att ringa 112 för akuta ärenden eller 114 14. För att anmäla en iaktagelse krävs det att du har en fungeranad mail eller en mobiltelefon som kan ta emot sms. </p>
+      <a href="report">
 	  	<button type="submit" class="btn btn-danger">Anmäl</button>
 	  </div>
 <div class="col-md-1 text-center">
