@@ -4,6 +4,7 @@ ini_set('display_errors', 1);
 
 include('config/dbconfig.php');
 include('helpers/functions.php');
+include('helpers/geojson.php');
 
 $base = dirname($_SERVER['PHP_SELF']);
 $pagePath = substr($_SERVER['REQUEST_URI'], strlen($base)+1);
