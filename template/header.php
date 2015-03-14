@@ -9,7 +9,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -30,7 +30,7 @@
       <a href="<?php echo $base.'/logout'; ?>"> Logga ut</a>
     <?php } else { ?>
       <a href="<?php echo $base.'/login'; ?>"> Logga in</a> |
-      <a href="<?php echo $base.'/signup'; ?>"> Registera nytt konto</a>
+      <a href="<?php echo $base.'/register'; ?>"> Registera nytt konto</a>
     <?php } ?>
   </div>
 </header>

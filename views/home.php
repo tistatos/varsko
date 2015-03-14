@@ -20,6 +20,11 @@
         var map = new google.maps.Map(document.getElementById('map-canvas'),
             mapOptions);
         map.data.loadGeoJson('geojson/lansytor.geojson');
+        map.data.addListener('mouseover', function(event) {
+          map.data.revertStyle();
+          console.log(event.feature.getId())
+          map.data.overrideStyle(event.feature, {strokeWeight: 8});
+        });
       }
       google.maps.event.addDomListener(window, 'load', initialize);
     </script>
@@ -32,7 +37,19 @@
 		</div>
   		<div class="col-md-4 text-center">
   			<h3>Listade händelser</h3>
-
+        <ul>
+          <li id="event1">Lorem ipsum</li>
+          <li id="event2">Lorem ipsum</li>
+          <li id="event3">Lorem ipsum</li>
+          <li id="event4">Lorem ipsum</li>
+          <li id="event5">Lorem ipsum</li>
+          <li id="event6">Lorem ipsum</li>
+          <li id="event7">Lorem ipsum</li>
+          <li id="event8">Lorem ipsum</li>
+          <li id="event9">Lorem ipsum</li>
+          <li id="event10">Lorem ipsum</li>
+          <li id="event11">Lorem ipsum</li>
+        </ul>
   		</div>
 </div>
   <div class="row text-center">
@@ -41,7 +58,7 @@
 <img src="img/logo_w.png" alt="">
 
 <p>Varsko låter dig få reda på samhällsinformation via sms eller mail. Genom att ni anger ett kontaktsätt samt et intresseområde kan vi meddela er om något händer i erat område. Tjänsten är kostnadsfri samt fri från reklam. Ingen data om er som person sparas eller delas.
-</p> 
+</p>
 
 </div>
 
