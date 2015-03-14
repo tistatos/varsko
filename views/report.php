@@ -29,10 +29,10 @@
 <p>Skicka//Verifiera//Färdigt</p>
 <form class="form-inline">
   <div class="form-group">
-    <label for="inputPassword2" class="sr-only">Password</label>
-    <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+    <label for="inputVerify" class="sr-only">Verifiera</label>
+    <input type="Verify" class="form-control" id="inputVerify" placeholder="Verify">
   </div>
-  <button type="submit" class="btn btn-default">Confirm identity</button>
+  <button type="submit" class="btn btn-default">Verifiera</button>
 </form>
 <h1>KLART</h1>
 
