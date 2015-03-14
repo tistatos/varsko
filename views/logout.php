@@ -1,1 +1,5 @@
-du loggas nu ut...
+<?php
+$user->logout();
+
+redirect("home");
+
