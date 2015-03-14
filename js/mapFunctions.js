@@ -1,17 +1,18 @@
 function initialize() {
   var mapOptions = {
     center: { lat: 62.19, lng: 18.03},
-    zoom: 5,
+    zoom: 4,
     disableDefaultUI: false,
     draggable: false,
-    maxZoom: 5,
-    minZoom: 5,
+    maxZoom: 20,
+    minZoom: 0,
     zoomControl: false,
     streetViewControl: false,
     overviewMapControl: false,
     mapTypeControl: false,
     clickToGo: false,
-    panControl: false
+    panControl: false,
+    scrollwheel: false
   };
 
   var map = new google.maps.Map(document.getElementById('map-canvas'),
@@ -45,6 +46,13 @@ function initialize() {
     {
       var code = event.feature.getProperty('OBJECTID');
     }
+    var bounds = new google.maps.LatLngBounds();
+
+    map.data.forEach(function(feature) {
+      if(feature.getGeometry() != undefined)
+        processPoints(feature.getGeometry(), bounds.extend, bounds);
+    });
+    map.fitBounds(bounds);
   });
   map.data.loadGeoJson("geojson/allData.geojson");
 
@@ -74,6 +82,18 @@ function initialize() {
 }
 google.maps.event.addDomListener(window, 'load', initialize);
 
+
+function processPoints(geometry, callback, thisArg) {
+  if (geometry instanceof google.maps.LatLng) {
+    callback.call(thisArg, geometry);
+  } else if (geometry instanceof google.maps.Data.Point) {
+    callback.call(thisArg, geometry.get());
+  } else {
+    geometry.getArray().forEach(function(g) {
+      processPoints(g, callback, thisArg);
+    });
+  }
+}
 
 
 /**
@@ -116,6 +136,9 @@ var getIcon = function(eventType)
     return 'blackout';
   }
   else if( eventType.indexOf('Utsläpp') >= 0){
+    return 'airpollution_black';
+  }
+  else if( eventType.indexOf('Naturolycka') >= 0){
     return 'airpollution_black';
   }
   else
