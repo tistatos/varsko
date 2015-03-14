@@ -3,15 +3,14 @@
 	<div class="col-md-1"></div>
 	<div class="col-md-1"></div>
 	<div class="col-md-6">
-		<div class="tab-content">
 		<ul class="nav nav-tabs" role="tablist">
 			<li id="varTab"role="presentation" class="wizardactivetab">Var</li>
 			<li id="veriTab"role="presentation">Verifiera</li>
 			<li id="klarTab"role="presentation">Klar</li>
 		</ul>
 		<h1>Anmäl iaktagelse</h1>
+		<div class="tab-content">
 
-		
 			<div role="tabpanel" class="tab-pane active" id="anm">
 				<div class="row">
 					<form class="form-horizontal">
@@ -33,32 +32,34 @@
 								<input type="Tel" class="form-control" id="inputTel" placeholder="Telefonnummer">
 							</div>
 						</div>
-						<button type="submit" class="btn btn-danger">Anmäl</button>
 					</form>
 					<button href="#veri" aria-controls="messages" role="tab" data-toggle="tab" class="btn btn-default btn-next" type="submit">Nästa</button>
 				</div>
-				
-				<div role="tabpanel" class="tab-pane active" id="veri">
-					<h1>Verifiera</h1>
-					<form class="form-inline">
-						<div class="form-group">
-							<label for="inputVerify" class="sr-only">Verifiera</label>
-							<input type="Verify" class="form-control" id="inputVerify" placeholder="Verify">
-						</div>
-						<button type="submit" class="btn btn-danger">Verifiera</button>
-					</form>
-					<button href="#var" aria-controls="messages" role="tab" data-toggle="tab" class="btn btn-default btn-prev" type="submit">Föregående</button>
-					<button href="#klar" aria-controls="messages" role="tab" data-toggle="tab" class="btn btn-default btn-next" type="submit">Nästa</button>
-					<div role="tabpanel" class="tab-pane active" id="klar">
-						<h1>KLART</h1>
-						<p>Kanonbra, nu är det färdigt!</p>
+			</div>
+
+			<div role="tabpanel" class="tab-pane" id="veri">
+				<h1>Verifiera</h1>
+				<form class="form-inline">
+					<div class="form-group">
+						<label for="inputVerify" class="sr-only">Verifiera</label>					
+						<input type="Verify" class="form-control" id="inputVerify" placeholder="Verify">
 					</div>
+					<p>Vi behöver veta att du verkligen är du.</p>
+				</form>
+				<button href="#var" aria-controls="messages" role="tab" data-toggle="tab" class="btn btn-default btn-prev" type="submit">Föregående</button>
+				<button href="#klar" aria-controls="messages" role="tab" data-toggle="tab" class="btn btn-default btn-next" type="submit">Nästa</button>
+			</div>
+				<div role="tabpanel" class="tab-pane" id="klar">
+					<h1>KLART</h1>
+					<p>Kanonbra, nu är det färdigt!</p>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="col-md-1"></div>
-	<div class="col-md-1"></div>
-	<div class="col-md-1"></div>
+</div>
+
+<div class="col-md-1"></div>
+<div class="col-md-1"></div>
+<div class="col-md-1"></div>
 </div>
 <script type="text/javascript" src="js/register.js"></script>
