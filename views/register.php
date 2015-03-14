@@ -7,14 +7,14 @@
 
 		<ul class="nav nav-tabs" role="tablist">
 			<li id="hurTab"role="presentation" class="wizardactivetab">Hur</li>
-			<li id="vadTab"role="presentation">Vad</li>
+			<li id="vadTab"role="presentation">Var</li>
 			<li id="veriTab"role="presentation">Verifiera</li>
 			<li id="klarTab"role="presentation">Klar</li>
 		</ul>
 		<div class="tab-content">
 
 			<div role="tabpanel" class="tab-pane active" id="hur">
-				<h1>Hur</h1>
+				<h3 style="margin-bottom:50px;">Hur vill du få din information?</h3>
 
 <div class="col-md-4 text-center">
               <img src="img/sms_b.png" alt="" style="height:12%;">
@@ -44,22 +44,22 @@
 				
 				
 				
-				<p style="margin-top:200px;">Hur vill du få din information?</p>
+				<p style="margin-top:250px;">För att genomföra registreringen krävs det att ni har en fungerande mail eller mobiltelefon.</p>
 				<button href="#vad" aria-controls="messages" role="tab" data-toggle="tab" class="btn btn-default btn-next" type="submit">Nästa</button>
 			</div>
 			<div role="tabpanel" class="tab-pane" id="vad">
-				<h1>Vad</h1>
+				<h3 style="margin-bottom:50px;">Vilka områden</h3>
 				<div class="row">
 					<div class="col-md-6">
 						<form class="form-horizontal">
 							<div class="form-group">
-								<label for="inputLan" class="col-sm-2 control-label">Län</label>
+								<label for="inputLan" class="col-md-2 control-label">Län</label>
 								<div class="col-sm-10">
 									<input type="Lan" class="form-control" id="inputEmail3" placeholder="Län">
 
 								</div>
 								<div class="form-group">
-									<label for="inputKommun" class="col-sm-2 control-label">Kommun</label>
+									<label for="inputKommun" class="col-md-2 control-label">Kommun</label>
 									<div class="col-sm-10">
 										<input type="Kommun" class="form-control" id="inputPassword3" placeholder="Kommun">
 									</div>
@@ -95,7 +95,7 @@
 			</div>
 			
 			<div role="tabpanel" class="tab-pane" id="veri">
-				<h1>Verifiering</h1>
+				<h3 style="margin-bottom:50px;">Verifiering</h3>
 				<form class="form-inline">
 					<div class="form-group">
 						<label for="inputVerify" class="sr-only">verify</label>
