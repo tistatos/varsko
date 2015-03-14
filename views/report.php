@@ -4,8 +4,6 @@
 	<div class="col-md-1"></div>
 	<div class="col-md-6">
 		<h1>Anmäl iaktagelse</h1>
-
-
 		<table class="table">
 			<tr>
 				<td class="wizardactivetab">Anmäl</td><td>Verifiera</td><td>Klar</td>
