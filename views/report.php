@@ -3,6 +3,7 @@
 	<div class="col-md-1"></div>
 	<div class="col-md-1"></div>
 	<div class="col-md-6">
+		<div class="tab-content">
 		<ul class="nav nav-tabs" role="tablist">
 			<li id="varTab"role="presentation" class="wizardactivetab">Var</li>
 			<li id="veriTab"role="presentation">Verifiera</li>
@@ -10,7 +11,7 @@
 		</ul>
 		<h1>Anmäl iaktagelse</h1>
 
-		<div class="tab-content">
+		
 			<div role="tabpanel" class="tab-pane active" id="anm">
 				<div class="row">
 					<form class="form-horizontal">
