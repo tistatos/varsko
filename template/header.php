@@ -21,11 +21,8 @@
 <body>
 <header>
   <div class="logo">
-<<<<<<< HEAD
-    <img src="img/logo_w.png" alt="">
-=======
-    <a href="index.php"><img src="img/logo.png" alt=""></a>
->>>>>>> FETCH_HEAD
+    <a href="index.php"><img src="img/logo_w.png" alt=""></a>
+
   </div>
   <div class="menu pull-right white">
     <a href="<?php echo $base; ?>" class="white"> Start</a> |
@@ -33,13 +30,9 @@
       <a href="<?php echo $base.'/updateUser'; ?>" class="white"> Uppdatera mina uppgifter</a> |
       <a href="<?php echo $base.'/logout'; ?>" class="white"> Logga ut</a>
     <?php } else { ?>
-<<<<<<< HEAD
       <a href="<?php echo $base.'/login'; ?>" class="white"> Logga in</a> |
       <a href="<?php echo $base.'/signup'; ?>" class="white"> Registera nytt konto</a>
-=======
-      <a href="<?php echo $base.'/login'; ?>"> Logga in</a> |
-      <a href="<?php echo $base.'/register'; ?>"> Registera nytt konto</a>
->>>>>>> FETCH_HEAD
+
     <?php } ?>
   </div>
 </header>
