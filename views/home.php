@@ -8,13 +8,7 @@
 <div class="row text-center" style="margin-top:0px;">
       <div class="col-md varsko-information_2">
 
-<img src="img/logo_w.png" alt="" style="margin-top:12.5%;">
-
-      <p>
-        <i>Din samhällsinformation via sms, mail eller
-sociala medier
-</i>
-      </p>
+<img src="img/logo_w.png" alt="" class="img-responsive" style="margin-top:12.5%;">
          
       </div>
   </div>
