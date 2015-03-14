@@ -24,9 +24,8 @@
       google.maps.event.addDomListener(window, 'load', initialize);
     </script>
 
-	
+
 	<div class="row text-center">
-		
 		<div class="col-md-8">
 			<div id="map-canvas" style="width:auto; height:80%;">
 			</div>
@@ -35,18 +34,20 @@
   			<h3>Listade händelser</h3>
 
   		</div>
-  			
+
 	</div>
-	  
+
 	 <div class="row text-center">
 
 	  <div class="col-md-6 text-center">
 	  	<h2>Registrera</h2>
       <img src="img/create1.png" alt="" style="width:10%;">
 	  	<p>Här kan du registrera dig för tjänsten</p>
-	  	<button type="submit" class="btn btn-default">Registrera</button>
+      <a href="register">
+	  	  <button type="submit" class="btn btn-default">Registrera</button>
+      </a>
 	  </div>
-	  
+
 	  <div class="col-md-6 text-center ">
 	  	<h2>Anmäl iaktagelse</h2>
       <img src="img/bull1.png" alt="" style="width:10%;">
