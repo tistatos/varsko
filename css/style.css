@@ -46,12 +46,12 @@ footer {
 
 .row {
   margin-top: 40px;
-  margin-bottom: 40px; 
+  margin-bottom: 40px;
 }
 
 .varsko-information{
   padding: 40px 80px;
-  background:url('../img/info_back.jpg')no-repeat center center; 
+  background:url('../img/info_back.jpg')no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -90,4 +90,9 @@ footer {
   background-color: #fff;
   border-radius: 5px;
   border:#48ac73 5px solid;
+}
+
+
+.activeEvent {
+  border: 1px solid #48ac73
 }
