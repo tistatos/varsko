@@ -14,7 +14,7 @@
 		<div class="tab-content">
 
 			<div role="tabpanel" class="tab-pane active" id="hur">
-				<h1>HUR</h1>
+				<h1>Hur</h1>
 				<label class="radio-inline">
 					<input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> SMS
 				</label>
@@ -24,10 +24,12 @@
 				<label class="radio-inline">
 					<input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> Mail
 				</label>
+				<br>
+				<p>Hur vill du få din information?</p>
 				<button href="#vad" aria-controls="messages" role="tab" data-toggle="tab" class="btn btn-default btn-next" type="submit">Nästa</button>
 			</div>
 			<div role="tabpanel" class="tab-pane" id="vad">
-				<h1>VAD</h1>
+				<h1>Vad</h1>
 				<div class="row">
 					<div class="col-md-6">
 						<form class="form-horizontal">
@@ -74,7 +76,7 @@
 			</div>
 			
 			<div role="tabpanel" class="tab-pane" id="veri">
-				<h1>VERIFIKATION</h1>
+				<h1>Verifiering</h1>
 				<form class="form-inline">
 					<div class="form-group">
 						<label for="inputVerify" class="sr-only">verify</label>
@@ -85,7 +87,7 @@
 				<button href="#klar" aria-controls="messages" role="tab" data-toggle="tab" class="btn btn-danger btn-next" type="submit">Registrera</button>
 			</div>
 			<div role="tabpanel" class="tab-pane" id="klar">
-				<h1>KLART</h1>
+				<h1>Klart!</h1>
 				<p>Kanonbra, nu är det färdigt!</p>
 
 			</div>
