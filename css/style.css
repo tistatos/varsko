@@ -12,8 +12,6 @@ header{
   padding: 10px;
   position: relative;
   margin: 0;
-  margin-bottom: 20px;
-
 }
 
 header > .logo img{
@@ -73,6 +71,25 @@ footer {
 }
 
 .varsko-information p{
+  font-size: 2.5em;
+  font-weight: 200;
+  margin-top: 50px;
+}
+
+.varsko-information_2{
+  width:100%;
+  margin: 0px;
+  padding: 40px 80px;
+  background:url('../img/bakgrund3.png')no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color:#fff;
+  min-height: 720px;
+}
+
+.varsko-information_2 p{
   font-size: 2.5em;
   font-weight: 200;
   margin-top: 50px;

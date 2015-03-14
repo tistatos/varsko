@@ -20,7 +20,7 @@
     <title>Varsko</title>
 </head>
 <body>
-<header>
+<header style="margin-bottom:0px;    box-shadow: 0px 5px 5px #444;">
   <div class="logo">
     <a href="<?php echo $base?>"><img src="img/logo_w.png" alt=""></a>
 
@@ -37,4 +37,4 @@
     <?php } ?>
   </div>
 </header>
-<div class="container-fluid">
+<div class="container-fluid" style="padding:0;">
