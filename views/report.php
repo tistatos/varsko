@@ -15,7 +15,7 @@
 				<div class="row">
 					<form class="form-horizontal">
 						<div class="form-group">
-							<label for="inputVart" class="col-sm-2 control-label">Vart</label>
+							<label for="inputVart" class="col-sm-2 control-label">Var</label>
 							<div class="col-sm-10">
 								<input type="Vart" class="form-control" id="inputVart" placeholder="Vart">
 							</div>

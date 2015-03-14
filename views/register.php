@@ -3,8 +3,6 @@
 	<div class="col-md-1"></div>
 	<div class="col-md-1"></div>
 	<div class="col-md-6">
-
-
 		<ul class="nav nav-tabs" role="tablist">
 			<li id="hurTab"role="presentation" class="wizardactivetab">Hur</li>
 			<li id="vadTab"role="presentation">Var</li>
