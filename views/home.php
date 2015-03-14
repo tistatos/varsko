@@ -67,7 +67,7 @@ sociala medier
 	  <div class="col-md-4 text-center">
 	  	<h1>Registrera</h1>
       <img src="img/register.png" alt="" style="height:12%; margin:40px;">
-	  	<p>Här kan du registrera dig för tjänsten. Det är gratis och reklamfritt. För att registrera dig på tjänsten krävs det att du har aningen en fungeranad mail eller en mobiltelefon som kan ta emot sms.</p>
+	  	<p>Här kan du registrera dig för tjänsten. Det är gratis och reklamfritt. För att tjänsten ska fungera kräver registreringen att du aningen har en fungerande mail eller en mobiltelefon som kan ta emot sms.</p>
       <a href="register">
 	  	  <button type="submit" class="btn btn-default">Registrera</button>
       </a>
@@ -79,7 +79,7 @@ sociala medier
 	  <div class="col-md-4 text-center">
 	  	<h1>Anmäl iaktagelse</h1>
       <img src="img/report.png" alt="" style="height:12%; margin:40px;">
-	  	<p>Här kan du anmäla en iaktagelse. Kom ihåg att ringa 112 för akuta ärenden eller 114 14. För att anmäla en iaktagelse krävs det att du har en fungeranad mail eller en mobiltelefon som kan ta emot sms. </p>
+	  	<p>Här kan du anmäla en iaktagelse. Kom ihåg att ringa 112 för akuta ärenden eller 114 14. För att anmäla en iaktagelse krävs det att du har en fungerande mail eller en mobiltelefon som kan ta emot sms. </p>
 	  	<a href="report">
       <button type="submit" class="btn btn-danger">Anmäl</button>
       </a>

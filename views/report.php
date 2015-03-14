@@ -8,6 +8,7 @@
 		</ul>
 		<div class="tab-content">
 			<div role="tabpanel" class="tab-pane active" id="anm">
+			<h1>Anmäl iaktagelse</h1>
 				<div class="row">
 					<form action="#" method="" id="anm" class="form-horizontal">
 						<div class="form-group">
@@ -39,14 +40,14 @@
 						<label for="inputVerify" class="sr-only">Verifiera</label>					
 						<input type="Verify" class="form-control" id="inputVerify" placeholder="Verify">
 					</div>
-					<p>Vi behöver veta att du verkligen är du. Ett SMS med en kod skickas till dig inom några minuter. Skriv verifieringskoden i fältet ovan.</p>
+					<br><p>Vi behöver veta att du verkligen är du. Ett SMS med en kod skickas till dig inom några minuter. Skriv verifieringskoden i fältet ovan.</p>
 				</form>
 					<button href="#klar" style="float: right" aria-controls="messages" role="tab" data-toggle="tab" class="btn btn-danger btn-next" type="button">Anmäl</button>
 				<button href="#var" style="float: right" aria-controls="messages" role="tab" data-toggle="tab" class="btn btn-default btn-prev" type="submit">Föregående</button>
 			</div>
 			<div role="tabpanel" class="tab-pane" id="klar">
 				<h1>KLART</h1>
-				<p>Kanonbra, nu är det färdigt!</p>
+				<p>Kanonbra, nu är det färdigt!<br>Så fort det har inkommit ett antal liknande anmälningar kommer allmänheten i området att varnas. <br><br>Tack för din insats! </p>
 			</div>
 		</div>
 	</div>
