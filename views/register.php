@@ -15,17 +15,36 @@
 
 			<div role="tabpanel" class="tab-pane active" id="hur">
 				<h1>Hur</h1>
-				<label class="radio-inline">
-					<input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> SMS
+
+<div class="col-md-4 text-center">
+              <img src="img/sms_b.png" alt="" style="height:12%;">
+              <h2>SMS</h2>
+              <label class="radio-inline">
+					<input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
 				</label>
-				<label class="radio-inline">
-					<input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> SMS &amp; Mail
+          </div>
+          
+          <div class="col-md-4 text-center">
+              <img src="img/mail_b.png" alt="" style="height:12%;">
+              <h2>Mail</h2>
+              <label class="radio-inline">
+					<input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
 				</label>
-				<label class="radio-inline">
-					<input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> Mail
+          </div>
+            
+          <div class="col-md-4 text-center">
+              <img src="img/sms_mail_b.png" alt="" style="height:12%;">
+              <h2>SMS &amp; Mail</h2>
+              <label class="radio-inline">
+					<input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
 				</label>
-				<br>
-				<p>Hur vill du få din information?</p>
+          </div>
+
+				
+				
+				
+				
+				<p style="margin-top:200px;">Hur vill du få din information?</p>
 				<button href="#vad" aria-controls="messages" role="tab" data-toggle="tab" class="btn btn-default btn-next" type="submit">Nästa</button>
 			</div>
 			<div role="tabpanel" class="tab-pane" id="vad">
