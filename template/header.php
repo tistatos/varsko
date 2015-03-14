@@ -19,9 +19,7 @@
     <title>Varsko - Bitch I'll warn ya</title>
 </head>
 <body>
-<div class="container">
-<div class="row">
-<div class="col-md header">
+<header>
   <div class="logo">
     <img src="asd" alt="">
   </div>
@@ -35,4 +33,6 @@
       <a href="<?php echo $base.'/signup'; ?>"> Registera nytt konto</a>
     <?php } ?>
   </div>
-</div>
+</header>
+<div class="container">
+<div class="row">
