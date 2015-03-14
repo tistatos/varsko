@@ -9,7 +9,7 @@
       <div class="col-md varsko-information_2">
 
 <img src="img/logo_w.png" alt="" class="img-responsive" style="margin-top:12.5%;">
-  <div class="col-md-6"><p><i>Vi informerar dig om olyckor och katastrofer via SMS och mail.</i><p></div>
+  <div class="col-md-6"><p><i>Bli informerad om olyckor och katastrofer via SMS och mail.</i><p></div>
   
          
       </div>
@@ -80,7 +80,10 @@ sociala medier
 	  	<h1>Anmäl iaktagelse</h1>
       <img src="img/report.png" alt="" style="height:12%; margin:40px;">
 	  	<p>Här kan du anmäla en iaktagelse. Kom ihåg att ringa 112 för akuta ärenden eller 114 14. För att anmäla en iaktagelse krävs det att du har en fungeranad mail eller en mobiltelefon som kan ta emot sms. </p>
-	  	<button type="submit" class="btn btn-danger">Anmäl</button>
+	  	<a href="report">
+      <button type="submit" class="btn btn-danger">Anmäl</button>
+      </a>
+
 	  </div>
 <div class="col-md-1 text-center">
 </div>

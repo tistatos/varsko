@@ -54,7 +54,8 @@
 
 	<div class="col-md-3 well">
 		<h2>Nödsituation?</h2>
-		<p>Nödnumret 112 ska användas vid akuta nödsituationer då det föreligger fara för liv, egendom eller miljö. <br><br>Är det inte en akut fara kan man ringa 11414 för att komma till närmaste polisstation.</p>
+		<p>Nödnumret 112 ska användas vid akuta nödsituationer då det föreligger fara för liv, egendom eller miljö. 
+			<br><br>Är det inte en akut fara kan man ringa 11414 för att komma till närmaste polisstation.</p>
 	</div>
 	<div class="col-md-1"></div>
 </div>
