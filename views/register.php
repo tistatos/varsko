@@ -9,6 +9,7 @@
 			<li id="veriTab"role="presentation">Verifiera</li>
 			<li id="klarTab"role="presentation">Klar</li>
 		</ul>
+
 		<div class="tab-content">
 
 			<div role="tabpanel" class="tab-pane active" id="hur">
@@ -48,44 +49,52 @@
 			<div role="tabpanel" class="tab-pane" id="vad">
 				<h3 style="margin-bottom:50px;">Vilka områden</h3>
 				<div class="row">
+					
 					<div class="col-md-6">
-						<form class="form-horizontal">
+						
+						
+						<form >
 							<div class="form-group">
-								<label for="inputLan" class="col-md-2 control-label">Län</label>
-								<div class="col-sm-10">
+								
+								<label for="Lan" class="control-label">Län</label>
+								
+								
 									<input type="Lan" class="form-control" id="inputEmail3" placeholder="Län">
+								
 
-								</div>
 								<div class="form-group">
-									<label for="inputKommun" class="col-md-2 control-label">Kommun</label>
-									<div class="col-sm-10">
+									<label for="Kommun" class="control-label">Kommun</label>
+									
 										<input type="Kommun" class="form-control" id="inputPassword3" placeholder="Kommun">
-									</div>
+									
 								</div>
+
 							</div>
 						</form>
+
+
 					</div>
+					
 					<div class="col-md-6">
-						<label class="checkbox-inline">
+						<label class="checkbox">
 							<input type="checkbox" id="inlineCheckbox1" value="1" checked> Brand
 						</label>
-						<label class="checkbox-inline">
+						<label class="checkbox">
 							<input type="checkbox" id="inlineCheckbox2" value="1" checked> Strömavbrott/El
 						</label>
-					</div>
-					<div class="col-md-6">
-						<label class="checkbox-inline">
+						<label class="checkbox">
 							<input type="checkbox" id="inlineCheckbox3" value="1"checked> Översvämning
 						</label>
-						<label class="checkbox-inline">
+						<label class="checkbox">
 							<input type="checkbox" id="inlineCheckbox4" value="1"checked> Väder/Storm
 						</label>
-						<label class="checkbox-inline">
+						<label class="checkbox">
 							<input type="checkbox" id="inlineCheckbox5" value="1"checked> Utsläpp (luft/vatten)
 						</label>
 
 					</div>
 				</div>
+
 				<button href="#hur" aria-controls="messages" role="tab" data-toggle="tab" class="btn btn-default btn-prev" type="submit">Föregående</button>
 				<button href="#veri" aria-controls="messages" role="tab" data-toggle="tab" class="btn btn-default btn-next" type="submit">Nästa</button>
 
