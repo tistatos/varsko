@@ -1,14 +1,16 @@
 <?php
-include('userFlex/autoload.php');
+
+include('inc/functions.php');
+include(dirname(__FILE__) .'/../../autoload.php');
 
 //Instantiate the uFlex User object
 $user = new \ptejada\uFlex\User();
 
 //Add database credentials and information
-$user->config->database->host = "localhost";
-$user->config->database->user = "uFlex";
-$user->config->database->password = "varskopass";
-$user->config->database->name = "varsko"; //Database name
+$user->config->database->host = "#!db_host";
+$user->config->database->user = "#!db_user";
+$user->config->database->password = "#!db_pass";
+$user->config->database->name = "#!db_name"; //Database name
 
 /*
  * Instead of editing the Class files directly you may make
