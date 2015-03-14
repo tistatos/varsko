@@ -24,13 +24,12 @@
       google.maps.event.addDomListener(window, 'load', initialize);
     </script>
 
-<div class="container">
-
 	
 	<div class="row text-center">
 		
 		<div class="col-md-8"><h3>Sverigekarta</h3>
-		<div id="map-canvas" style="width:20%; height:80%;"></div>
+			<div id="map-canvas" style="width:auto; height:80%;">
+			</div>
 		</div>
   		<div class="col-md-4 text-center">
   			<h3>Listade händelser</h3>
@@ -54,4 +53,3 @@
 	  </div>
 
 	</div>
-</div>

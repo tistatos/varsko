@@ -19,12 +19,13 @@
     <title>Varsko - Bitch I'll warn ya</title>
 </head>
 <body>
-
-<header>
+<div class="container">
+<div class="row">
+<div class="col-md header">
   <div class="logo">
     <img src="asd" alt="">
   </div>
-  <div class="menu">
+  <div class="menu pull-right">
     <a href="<?php echo $base; ?>"> Start</a> |
     <?php if($user->isSigned()) { ?>
       <a href="<?php echo $base.'/updateUser'; ?>"> Uppdatera mina uppgifter</a> |
@@ -34,4 +35,4 @@
       <a href="<?php echo $base.'/signup'; ?>"> Registera nytt konto</a>
     <?php } ?>
   </div>
-</header>
+</div>
