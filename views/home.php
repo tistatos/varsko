@@ -55,18 +55,18 @@
   <div class="row text-center">
       <div class="col-md varsko-information">
         <h2 style="margin-bottom:40px;">
-          Information till dig
+          Information till dig via
         </h2>
             <div class="col-md-4 text-center">
-              <img src="img/report_w.png" alt="" style="width:15%;">
+              <img src="img/sms_w.png" alt="" style="height:12%;">
               <h2>SMS</h2>
           </div>
           <div class="col-md-4 text-center">
-          <img src="img/mail_w.png" alt="" style="width:15%;">
+          <img src="img/mail_w.png" alt="" style="height:12%;">
           <h2>Mail</h2>
           </div>
             <div class="col-md-4 text-center">
-              <img src="img/report_w.png" alt="" style="width:15%;">
+              <img src="img/report_w.png" alt="" style="height:12%;">
               <h2>Sociala medier</h2>
           </div>
       <p style="padding-top:140px;">
@@ -81,7 +81,7 @@
 </div>
 	  <div class="col-md-4 text-center">
 	  	<h1>Registrera</h1>
-      <img src="img/register.png" alt="" style="width:15%; margin:40px;">
+      <img src="img/register.png" alt="" style="height:12%; margin:40px;">
 	  	<p>Här kan du registrera dig för tjänsten</p>
       <a href="register">
 	  	  <button type="submit" class="btn btn-default">Registrera</button>
@@ -93,7 +93,7 @@
 </div>
 	  <div class="col-md-4 text-center">
 	  	<h1>Anmäl iaktagelse</h1>
-      <img src="img/report.png" alt="" style="width:15%; margin:40px;">
+      <img src="img/report.png" alt="" style="height:12%; margin:40px;">
 	  	<p>Här kan du anmäla en iaktagelse</p>
 	  	<button type="submit" class="btn btn-danger">Anmäl</button>
 	  </div>
