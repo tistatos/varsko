@@ -42,11 +42,11 @@
   </div>
   <button type="submit" class="btn btn-danger">Verifiera</button>
 </form>
+
 <table class="table">
 	<tr>
-
+		<td>Anmäl</td><td>Verifiera</td><td class="wizardactivetab">Klar</td>
 	</tr>
 </table>
-<td>Anmäl</td><td>Verifiera</td><td class="wizardactivetab">Klar</td>
 <h1>KLART</h1>
 <p>Kanonbra, nu är det färdigt!</p>
