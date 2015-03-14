@@ -47,7 +47,7 @@
 					<p>Vi behöver veta att du verkligen är du.</p>
 				</form>
 				<button href="#var" aria-controls="messages" role="tab" data-toggle="tab" class="btn btn-default btn-prev" type="submit">Föregående</button>
-				<button href="#klar" aria-controls="messages" role="tab" data-toggle="tab" class="btn btn-default btn-next" type="submit">Nästa</button>
+				<button href="#klar" aria-controls="messages" role="tab" data-toggle="tab" class="btn btn-danger btn-next" type="submit">Anmäl</button>
 			</div>
 				<div role="tabpanel" class="tab-pane" id="klar">
 					<h1>KLART</h1>
