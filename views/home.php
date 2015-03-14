@@ -57,13 +57,10 @@
 
       <img src="img/logo_w.png" alt="" class="img-responsive" style="margin-top:40px; margin-bottom:100px;" align="center">
 
-<<<<<<< HEAD
+
       <p>Varsko låter dig få reda på samhällsinformation via sms eller mail. Genom att ni anger ett kontaktsätt samt ett intresseområde kan vi meddela er om något händer i erat område. Tjänsten är kostnadsfri samt fri från reklam. Ingen data om er som person sparas eller delas.
       </p> 
-=======
-<p>Varsko låter dig få reda på samhällsinformation via sms eller mail. Genom att ni anger ett kontaktsätt samt ett intresseområde kan vi meddela er om något händer i erat område. Tjänsten är kostnadsfri samt fri från reklam. Ingen data om er som person sparas eller delas.
-</p>
->>>>>>> FETCH_HEAD
+
 
       </div>
   </div>
