@@ -147,3 +147,32 @@ footer {
   width: 32px;
   height: 32px;
 }
+
+
+input[type=radio] {
+  display: none;
+}
+
+input[type=radio]:checked + label.radio-inline {
+  opacity: 1;
+  -webkit-transform: scale(1.1,1.1);
+}
+
+label.radio-inline {
+  opacity: .5;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+label.checkbox-label {
+  opacity: 0.5;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: block;
+}
+
+input[type=checkbox]:checked + label.checkbox-label {
+  opacity: 1;
+  -webkit-transform: scale(1.1,1.1);
+}

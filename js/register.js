@@ -1,13 +1,15 @@
 (function () {
 		$('.btn-next').click(function(){
 			var href=$(this).attr('href');
-			console.log(href);
 			$(href+"Tab").addClass("wizardactivetab");
 		});
 
 		$('.btn-prev').click(function(){
-			var parentID=$(this).parent().attr('id');
-			console.log(parentID);
+			var parent = $(this).parent();
+			var type = parent[0].tagName;
+			if(type !== 'DIV')
+				parent = parent.parent();
+			var parentID= parent.attr("id");
 			$("#"+parentID+"Tab").removeClass("wizardactivetab");
 		});
 }());
