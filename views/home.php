@@ -24,6 +24,7 @@
         map.setOptions({styles: styles});
        map.data.setStyle(function(feature){
           return ({
+            strokeWeight: 1,
             fillColor: setColor(feature.getProperty('LANSNAMN'))
           })
         });
@@ -39,9 +40,9 @@
       {
         console.log(featureProperty);
         if(featureProperty != '')
-          return 'blue';
+          return 'gray';
         else
-          return 'green';
+          return 'red';
       }
 
       google.maps.event.addDomListener(window, 'load', initialize);
@@ -89,7 +90,7 @@
           </div>
       <p style="padding-top:140px;">
         Varsko låter dig få reda på samhällsinformation via sms eller mail. Genom att ni anger ett kontaktsätt samt ett intresseområde kan vi meddela er om något händer i erat område. Tjänsten är kostnadsfri samt fri från reklam. Ingen data om er som person sparas eller delas.
-      </p> 
+      </p>
 
 
       </div>

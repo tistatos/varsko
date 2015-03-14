@@ -1,7 +1,7 @@
 <?php
-function loadMSBGeoJson($file)
+function loadGeoJson()
 {
-  $str = file_get_contents('geojson/'. $file .'.geojson');
+  $str = file_get_contents('geojson/allData.geojson');
   $json = json_decode($str, true);
   $feature = $json['features'];
 
