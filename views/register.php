@@ -1,4 +1,8 @@
-<td class="wizardactivetab">Hur</td><td>Vad</td><td>Verifiera</td><td>Klar</td>
+<table class="table">
+	<tr>
+		<td class="wizardactivetab">Hur</td><td>Vad</td><td>Verifiera</td><td>Klar</td>
+	</tr>
+</table>
 <h1>HUR</h1>
 
 <label class="radio-inline">
@@ -11,7 +15,11 @@
   <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> Epost
 </label>
 
-<td>Hur</td><td class="wizardactivetab">Vad</td><td>Verifiera</td><td>Klar</td>
+<table class="table">
+	<tr>
+		<td>Hur</td><td class="wizardactivetab">Vad</td><td>Verifiera</td><td>Klar</td>
+	</tr>
+</table>
 <h1>VAD</h1>
 <div class="row">
   <div class="col-md-6">
@@ -52,8 +60,11 @@
 	</label>
   </div>
 </div>
-
-<td>Hur</td><td>Vad</td><td class="wizardactivetab">Verifiera</td><td>Klar</td>
+<table class="table">
+	<tr>
+		<td>Hur</td><td>Vad</td><td class="wizardactivetab">Verifiera</td><td>Klar</td>
+	</tr>
+</table>
 <h1>VERIFIKATION</h1>
 <form class="form-inline">
   <div class="form-group">
@@ -62,7 +73,10 @@
   </div>
   <button type="submit" class="btn btn-danger">Confirm identity</button>
 </form>
-
-<td>Hur</td><td>Vad</td><td>Verifiera</td><td class="wizardactivetab">Klar</td>
+<table class="table">
+	<tr>
+		<td>Hur</td><td>Vad</td><td>Verifiera</td><td class="wizardactivetab">Klar</td>
+	</tr>
+</table>
 <h1>KLART</h1>
 <p>Kanonbra, nu är det färdigt!</p>

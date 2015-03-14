@@ -1,10 +1,10 @@
 <h1>Anmäl iaktagelse</h1>
 
 
-<table>
-<tr>
-<td class="active">Anmäl</td><td>Verifiera</td><td>Klar</td>
-</tr>
+<table class="table">
+	<tr>
+		<td class="wizardactivetab">Anmäl</td><td>Verifiera</td><td>Klar</td>
+	</tr>
 </table>
 <div class="row">
 	<form class="form-horizontal">
@@ -28,9 +28,12 @@
 	  </div>
 	  <button type="submit" class="btn btn-danger">Anmäl</button>
 	</form>
+<table class="table">
+	<tr>
+		<td>Anmäl</td><td class="wizardactivetab">Verifiera</td><td>Klar</td>
+	</tr>
+</table>
 
-
-<td>Anmäl</td><td class="active">Verifiera</td><td>Klar</td>
 <h1>Verifiera</h1>
 <form class="form-inline">
   <div class="form-group">
@@ -40,6 +43,10 @@
   <button type="submit" class="btn btn-danger">Verifiera</button>
 </form>
 
-<td>Anmäl</td><td>Verifiera</td><td class="active">Klar</td>
+<table class="table">
+	<tr>
+		<td>Anmäl</td><td>Verifiera</td><td class="wizardactivetab">Klar</td>
+	</tr>
+</table>
 <h1>KLART</h1>
 <p>Kanonbra, nu är det färdigt!</p>
