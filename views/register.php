@@ -107,17 +107,15 @@
 						<input type="verify" class="form-control" id="inputVerify" placeholder="Verifiera">
 					</div>			
 				</form>
-<<<<<<< Updated upstream
-				<button style="float: right" href="#klar" aria-controls="messages" role="tab" data-toggle="tab" class="btn btn-danger btn-next" type="submit">Registrera</button>
-				<button style="float: right" href="#vad" aria-controls="messages" role="tab" data-toggle="tab" class="btn btn-default btn-prev" type="submit">Föregående</button>
-=======
-				<button href="#vad" aria-controls="messages" role="tab" data-toggle="tab" class="btn btn-default btn-prev" type="submit">Föregående</button>
-				<button href="#klar" aria-controls="messages" role="tab" data-toggle="tab" class="btn btn-success btn-next" type="submit">Registrera</button>
->>>>>>> Stashed changes
+
+				<button style="float: right"href="#vad" aria-controls="messages" role="tab" data-toggle="tab" class="btn btn-default btn-prev" type="submit">Föregående</button>
+				<button style="float: right"href="#klar" aria-controls="messages" role="tab" data-toggle="tab" class="btn btn-success btn-next" type="submit">Registrera</button>
+
 			</div>
 			<div role="tabpanel" class="tab-pane" id="klar">
 				<h1>Klart!</h1>
 				<p>Kanonbra, nu är det färdigt!</p>
+				<a href="<?php echo $base; ?>">Återvänd</a>
 
 			</div>
 		</div>	

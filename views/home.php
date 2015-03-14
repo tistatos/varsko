@@ -11,7 +11,7 @@
 		<div class="col-md-6">
       <div id="map-canvas" style="width:auto; height:80%;">
 			</div>
-      <div><p> Data tagen ifrån Lantmäteriet och MSB</p></div>
+      <div><p> Data från Lantmäteriet och MSB</p></div>
 		</div>
   		<div class="col-md-6">
   			<h3 class="ActiveEventHeader">Händelser</h3>
