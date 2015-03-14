@@ -53,23 +53,30 @@
   		</div>
 </div>
   <div class="row text-center">
-      <div class="col-md varsko-information">
-        <h2 style="margin-bottom:40px;">
-          Information till dig via
-        </h2>
-            <div class="col-md-4 text-center">
+      <div class="col-md varsko-information" style="padding-top:100px;">
+
+          <div class="col-md-4 text-center">
               <img src="img/sms_w.png" alt="" style="height:12%;">
               <h2>SMS</h2>
           </div>
+          
           <div class="col-md-4 text-center">
-          <img src="img/mail_w.png" alt="" style="height:12%;">
-          <h2>Mail</h2>
+              <img src="img/mail_w.png" alt="" style="height:12%;">
+              <h2>Mail</h2>
           </div>
-            <div class="col-md-4 text-center">
+            
+          <div class="col-md-4 text-center">
               <img src="img/facebook_twitter_w.png" alt="" style="height:12%;">
               <h2>Sociala medier</h2>
           </div>
-      <p style="padding-top:150px;">
+
+ <h1 style="margin-top:100px;">
+          Din samhällsinformation via sms, mail eller
+sociala medier
+
+        </h1>
+
+      <p>
         Varsko låter dig få reda på samhällsinformation via sms eller mail. Genom att ni anger ett kontaktsätt samt ett intresseområde kan vi meddela er om något händer i erat område. Tjänsten är kostnadsfri samt fri från reklam. Ingen data om er som person sparas eller delas.
       </p> 
 
