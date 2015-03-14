@@ -1,7 +1,5 @@
 <div class="row" style="min-height:640px;">
 	<div class="col-md-1"></div>
-	<div class="col-md-1"></div>
-	<div class="col-md-1"></div>
 	<div class="col-md-6">
 		<ul class="nav nav-tabs nav-tabsfew" role="tablist">
 			<li id="varTab"role="presentation" class="wizardactivetab">Var</li>
@@ -42,8 +40,8 @@
 						<input type="Verify" class="form-control" id="inputVerify" placeholder="Verify">
 					</div>
 					<p>Vi behöver veta att du verkligen är du. Ett SMS med en kod skickas till dig inom några minuter. Skriv verifieringskoden i fältet ovan.</p>
-				<button href="#klar" style="float: right" aria-controls="messages" role="tab" data-toggle="tab" class="btn btn-danger btn-next" type="button">Anmäl</button>
 				</form>
+					<button href="#klar" style="float: right" aria-controls="messages" role="tab" data-toggle="tab" class="btn btn-danger btn-next" type="button">Anmäl</button>
 				<button href="#var" style="float: right" aria-controls="messages" role="tab" data-toggle="tab" class="btn btn-default btn-prev" type="submit">Föregående</button>
 			</div>
 			<div role="tabpanel" class="tab-pane" id="klar">
@@ -52,10 +50,12 @@
 			</div>
 		</div>
 	</div>
-</div>
-</div>
-<div class="col-md-1"></div>
-<div class="col-md-1"></div>
-<div class="col-md-1"></div>
+	<div class="col-md-1"></div>
+
+	<div class="col-md-3 well">
+		<h2>Nödsituation?</h2>
+		<p>Nödnumret 112 ska användas vid akuta nödsituationer då det föreligger fara för liv, egendom eller miljö. <br><br>Är det inte en akut fara kan man ringa ringa 11414 för att komma till närmaste polisstation.</p>
+	</div>
+	<div class="col-md-1"></div>
 </div>
 <script type="text/javascript" src="js/register.js"></script>
