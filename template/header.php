@@ -17,12 +17,12 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <title>Varsko - Bitch I'll warn ya</title>
+    <title>Varsko</title>
 </head>
 <body>
 <header>
   <div class="logo">
-    <a href="index.php"><img src="img/logo_w.png" alt=""></a>
+    <a href="<?php echo $base?>"><img src="img/logo_w.png" alt=""></a>
 
   </div>
   <div class="menu pull-right white">
@@ -32,10 +32,9 @@
       <a href="<?php echo $base.'/logout'; ?>" class="white"> Logga ut</a>
     <?php } else { ?>
       <a href="<?php echo $base.'/login'; ?>" class="white"> Logga in</a> |
-      <a href="<?php echo $base.'/signup'; ?>" class="white"> Registera nytt konto</a>
+      <a href="<?php echo $base.'/register'; ?>" class="white"> Registera nytt konto</a>
 
     <?php } ?>
   </div>
 </header>
 <div class="container-fluid">
-<div class="row" >

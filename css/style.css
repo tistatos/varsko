@@ -11,9 +11,7 @@ header{
   background-color: #48ac73;
   padding: 10px;
   position: relative;
-    margin: 0;
-    margin-left: -15px;
-    margin-right: -15px;
+  margin: 0;
   margin-bottom: 20px;
 
 }
@@ -36,8 +34,6 @@ footer {
   bottom: 0px;
   background-color: #48ac73;
   width: 100%;
-   margin-left: -15px;
-    margin-right: -15px;
 }
 
 .wizardactivetab
@@ -67,7 +63,7 @@ footer {
   width:100%;
   margin: 0px;
   padding: 40px 80px;
-  background:url('../img/info_back.jpg')no-repeat center center; 
+  background:url('../img/info_back.jpg')no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -106,4 +102,47 @@ footer {
   background-color: #fff;
   border-radius: 5px;
   border:#48ac73 5px solid;
+}
+
+
+.activeEvent {
+  border: 1px solid #48ac73
+}
+
+.activeEventHeader {
+  background-color: #48ac73;
+  color: white;
+  margin-top: 0px;
+  padding-top: 10px;
+  margin-bottom: 0px;
+  height: 5%;
+}
+
+
+#eventsNow {
+  height: 75%;
+  overflow-y: scroll;
+  overflow-x:hidden;
+  border: 2px solid #48ac73;
+
+}
+
+#eventsNow > li {
+  width: 90%;
+  list-style-type: none;
+  text-align: left;
+}
+
+.eventPlace {
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.eventDate {
+
+}
+
+.eventIcon {
+  width: 32px;
+  height: 32px;
 }
