@@ -32,19 +32,21 @@
 
   <div class="col-md-6">
 	<label class="checkbox-inline">
-	  <input type="checkbox" id="inlineCheckbox1" value="option1"> Eld
+	  <input type="checkbox" id="inlineCheckbox1" value="1" checked> Eld
 	</label>
 	<label class="checkbox-inline">
-	  <input type="checkbox" id="inlineCheckbox2" value="option2"> Strömavbrott/El
+	  <input type="checkbox" id="inlineCheckbox2" value="1" checked> Strömavbrott/El
+	</label>
+  </div>
+  <div class="col-md-6">
+	<label class="checkbox-inline">
+	  <input type="checkbox" id="inlineCheckbox3" value="1"checked> Översvämning
 	</label>
 	<label class="checkbox-inline">
-	  <input type="checkbox" id="inlineCheckbox3" value="option3"> Översvämning
-	</label>
-	<label class="checkbox-inline">
-	  <input type="checkbox" id="inlineCheckbox4" value="option4"> Väder/Storm
+	  <input type="checkbox" id="inlineCheckbox4" value="1"checked> Väder/Storm
 	</label>
 		<label class="checkbox-inline">
-	  <input type="checkbox" id="inlineCheckbox5" value="option5"> Utsläpp (luft/vatten)
+	  <input type="checkbox" id="inlineCheckbox5" value="1"checked> Utsläpp (luft/vatten)
 	</label>
   </div>
 </div>
