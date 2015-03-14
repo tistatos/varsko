@@ -46,6 +46,13 @@ footer {
   text-align: center;
 }
 
+.nav-tabsfew li
+{
+  padding: 2% 2%;
+  width: 33%;
+  text-align: center;
+}
+
 .row {
   margin-top: 40px;
   margin-bottom: 40px;
