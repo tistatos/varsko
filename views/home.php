@@ -1,6 +1,8 @@
  <script type="text/javascript"
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAcxFaGz1aSDhl2f0eWsBiHlKC0-8K5pu8">
     </script>
+    <script type="text/javascript"
+      src="js/mapstyle.js"></script>
     <script type="text/javascript">
       function initialize() {
         var mapOptions = {
@@ -14,18 +16,34 @@
           streetViewControl: false,
           overviewMapControl: false,
           mapTypeControl: false
-
-
         };
+
         var map = new google.maps.Map(document.getElementById('map-canvas'),
             mapOptions);
-        map.data.loadGeoJson('geojson/lansytor.geojson');
-        map.data.addListener('mouseover', function(event) {
-          map.data.revertStyle();
-          console.log(event.feature.getId())
-          map.data.overrideStyle(event.feature, {strokeWeight: 8});
+        map.data.loadGeoJson('geojson/allData.geojson');
+        map.setOptions({styles: styles});
+       map.data.setStyle(function(feature){
+          return ({
+            fillColor: setColor(feature.getProperty('LANSNAMN'))
+          })
         });
+        // map.data.addListener('mouseover', function(event) {
+        //   map.data.revertStyle();
+        //   console.log(event.feature.getId())
+        //   console.log(event.feature.getProperty('FranDatum'))
+        //   map.data.overrideStyle(event.feature, {strokeWeight: 8});
+        // });
       }
+
+      var setColor = function(featureProperty)
+      {
+        console.log(featureProperty);
+        if(featureProperty != '')
+          return 'blue';
+        else
+          return 'green';
+      }
+
       google.maps.event.addDomListener(window, 'load', initialize);
     </script>
 
