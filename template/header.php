@@ -22,7 +22,7 @@
 <body>
 <header>
   <div class="logo">
-    <a href="index.php"><img src="img/logo_w.png" alt=""></a>
+    <a href="<?php echo $base?>"><img src="img/logo_w.png" alt=""></a>
 
   </div>
   <div class="menu pull-right white">

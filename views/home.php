@@ -20,14 +20,29 @@
 
         var map = new google.maps.Map(document.getElementById('map-canvas'),
             mapOptions);
-        map.data.loadGeoJson('geojson/allData.geojson');
+        map.data.addListener('addfeature', function(event) {
+          var lansnamn = event.feature.getProperty('LANSNAMN');
+          if(lansnamn === '')
+          {
+            var omrade = event.feature.getProperty('Omradenamn');
+            var besk = event.feature.getProperty('Beskrivnin');
+            var html = '<li><h2>' + omrade + '</h2>' + '<p>' + besk +'<p></li>';
+
+            $('#eventsNow').append(html);
+            event.feature.setGeometry(undefined);
+
+          }
+        });
+        map.data.loadGeoJson("geojson/allData.geojson");
+
         map.setOptions({styles: styles});
-       map.data.setStyle(function(feature){
+        map.data.setStyle(function(feature){
           return ({
             strokeWeight: 1,
             fillColor: setColor(feature.getProperty('LANSNAMN'))
           })
         });
+
         // map.data.addListener('mouseover', function(event) {
         //   map.data.revertStyle();
         //   console.log(event.feature.getId())
@@ -38,7 +53,6 @@
 
       var setColor = function(featureProperty)
       {
-        console.log(featureProperty);
         if(featureProperty != '')
           return 'gray';
         else
@@ -56,18 +70,7 @@
 		</div>
   		<div class="col-md-4 text-center">
   			<h3>Listade händelser</h3>
-        <ul>
-          <li id="event1">Lorem ipsum</li>
-          <li id="event2">Lorem ipsum</li>
-          <li id="event3">Lorem ipsum</li>
-          <li id="event4">Lorem ipsum</li>
-          <li id="event5">Lorem ipsum</li>
-          <li id="event6">Lorem ipsum</li>
-          <li id="event7">Lorem ipsum</li>
-          <li id="event8">Lorem ipsum</li>
-          <li id="event9">Lorem ipsum</li>
-          <li id="event10">Lorem ipsum</li>
-          <li id="event11">Lorem ipsum</li>
+        <ul id="eventsNow">
         </ul>
   		</div>
 </div>
@@ -78,12 +81,12 @@
               <img src="img/sms_w.png" alt="" style="height:12%;">
               <h2>SMS</h2>
           </div>
-          
+
           <div class="col-md-4 text-center">
               <img src="img/mail_w.png" alt="" style="height:12%;">
               <h2>Mail</h2>
           </div>
-            
+
           <div class="col-md-4 text-center">
               <img src="img/facebook_twitter_w.png" alt="" style="height:12%;">
               <h2>Sociala medier</h2>
