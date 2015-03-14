@@ -51,8 +51,6 @@
 	  	<h2>Anmäl iaktagelse</h2>
 	  	<p>Här kan du anmäla en iaktagelse</p>
 	  	<button type="submit" class="btn btn-danger">Anmäl</button>
-	  	<h2>Anmäl händelse</h2>
-	  	<button type="submit" class="btn btn-default">Submit</button>
 	  </div>
 
 	</div>
