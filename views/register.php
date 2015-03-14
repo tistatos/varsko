@@ -12,10 +12,10 @@
 				<input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> SMS
 			</label>
 			<label class="radio-inline">
-				<input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> SMS & Epost
+				<input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> SMS &amp; Mail
 			</label>
 			<label class="radio-inline">
-				<input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> Epost
+				<input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> Mail
 			</label>
 		</div>
 		<div id="vad">
@@ -42,7 +42,7 @@
 				</div>
 				<div class="col-md-6">
 					<label class="checkbox-inline">
-						<input type="checkbox" id="inlineCheckbox1" value="1" checked> Eld
+						<input type="checkbox" id="inlineCheckbox1" value="1" checked> Brand
 					</label>
 					<label class="checkbox-inline">
 						<input type="checkbox" id="inlineCheckbox2" value="1" checked> Strömavbrott/El
@@ -71,7 +71,7 @@
 					<label for="inputPassword2" class="sr-only">Password</label>
 					<input type="password" class="form-control" id="inputPassword2" placeholder="Password">
 				</div>
-				<button type="submit" class="btn btn-danger">Confirm identity</button>
+				<button type="submit" class="btn btn-success">Confirm identity</button>
 			</form>
 		</div>
 		<div id="klar">

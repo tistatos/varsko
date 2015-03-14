@@ -54,22 +54,34 @@
 </div>
   <div class="row text-center">
       <div class="col-md varsko-information">
-
-      <img src="img/logo_w.png" alt="" class="img-responsive" style="margin-top:40px; margin-bottom:100px;" align="center">
-
-
-      <p>Varsko låter dig få reda på samhällsinformation via sms eller mail. Genom att ni anger ett kontaktsätt samt ett intresseområde kan vi meddela er om något händer i erat område. Tjänsten är kostnadsfri samt fri från reklam. Ingen data om er som person sparas eller delas.
+        <h2 style="margin-bottom:40px;">
+          Information till dig
+        </h2>
+            <div class="col-md-4 text-center">
+              <img src="img/report_w.png" alt="" style="width:15%;">
+              <h2>SMS</h2>
+          </div>
+          <div class="col-md-4 text-center">
+          <img src="img/mail_w.png" alt="" style="width:15%;">
+          <h2>Mail</h2>
+          </div>
+            <div class="col-md-4 text-center">
+              <img src="img/report_w.png" alt="" style="width:15%;">
+              <h2>Sociala medier</h2>
+          </div>
+      <p style="padding-top:140px;">
+        Varsko låter dig få reda på samhällsinformation via sms eller mail. Genom att ni anger ett kontaktsätt samt ett intresseområde kan vi meddela er om något händer i erat område. Tjänsten är kostnadsfri samt fri från reklam. Ingen data om er som person sparas eller delas.
       </p> 
 
 
       </div>
   </div>
-  <div class="row text-center">
+  <div class="row text-center" style="margin-bottom:100px; margin-top:100px;">
 <div class="col-md-1 text-center">
 </div>
 	  <div class="col-md-4 text-center">
-	  	<h2>Registrera</h2>
-      <img src="img/register.png" alt="" style="width:15%;">
+	  	<h1>Registrera</h1>
+      <img src="img/register.png" alt="" style="width:15%; margin:40px;">
 	  	<p>Här kan du registrera dig för tjänsten</p>
       <a href="register">
 	  	  <button type="submit" class="btn btn-default">Registrera</button>
@@ -80,8 +92,8 @@
 <div class="col-md-1 text-center">
 </div>
 	  <div class="col-md-4 text-center">
-	  	<h2>Anmäl iaktagelse</h2>
-      <img src="img/report.png" alt="" style="width:15%;">
+	  	<h1>Anmäl iaktagelse</h1>
+      <img src="img/report.png" alt="" style="width:15%; margin:40px;">
 	  	<p>Här kan du anmäla en iaktagelse</p>
 	  	<button type="submit" class="btn btn-danger">Anmäl</button>
 	  </div>
