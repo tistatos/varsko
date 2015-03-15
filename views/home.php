@@ -18,7 +18,7 @@
 
 	<div class="row text-center" style="min-height:640px;">
 		<div class="col-md-6">
-      <div id="map-canvas" style="width:auto; height:80%;">
+      <div id="map-canvas" style="width:auto; height:100%;">
 			</div>
    
 		</div>

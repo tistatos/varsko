@@ -1,7 +1,7 @@
 function initialize() {
   var mapOptions = {
     center: { lat: 62.19, lng: 18.03},
-    zoom: 4,
+    zoom: 5,
     disableDefaultUI: false,
     draggable: false,
     maxZoom: 20,
@@ -52,7 +52,7 @@ function initialize() {
       if(feature.getGeometry() != undefined)
         processPoints(feature.getGeometry(), bounds.extend, bounds);
     });
-    map.fitBounds(bounds);
+  
   });
   map.data.loadGeoJson("geojson/allData.geojson");
 
