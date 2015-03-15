@@ -55,7 +55,7 @@
 						</div>
 					</div>
 				</div>
-				<p style="margin-top:250px;">För att genomföra registreringen krävs det att ni har en fungerande mail eller mobiltelefon.</p>
+				<p>För att genomföra registreringen krävs det att ni har en fungerande mail eller mobiltelefon.</p>
 				<button href="#vad" style="float: right" aria-controls="messages" role="tab" data-toggle="tab" class="btn btn-default btn-next" type="button">Nästa</button>
 			</div>
 			<div role="tabpanel" class="tab-pane" id="vad">
