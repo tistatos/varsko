@@ -130,7 +130,8 @@ footer {
 
 
 .activeEvent {
-  border: 1px solid #545454;
+  color:#fff;
+  background-color:#d9534f;
 }
 
 .activeEventHeader {
