@@ -33,7 +33,7 @@
     <?php } else { ?>
       <a href="<?php echo $base.'/login'; ?>" class="white"> Logga in</a> |
       <a href="<?php echo $base.'/register'; ?>" class="white"> Registera nytt konto</a> |
-      <a href="<?php echo $base.'/register'; ?>"><button class="btn btn-danger">Anmäl iaktagelse</button></a>
+      <a href="<?php echo $base.'/report'; ?>"><button class="btn btn-danger">Anmäl iaktagelse</button></a>
 
     <?php } ?>
   </div>
