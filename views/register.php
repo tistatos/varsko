@@ -38,8 +38,9 @@
 						<img src="img/sms_mail_b.png" alt="" style="height:12%;">
 						<h2>SMS &amp; Mail</h2>
 					</label>
-					<p>Välj något av alternativen ovan.</p>
+
 				</div>
+				<p>Välj något av alternativen ovan.</p>
 				<div class="row">
 					<div class="col-md-4 col-md-offset-4">
 						<div class="form-group">
