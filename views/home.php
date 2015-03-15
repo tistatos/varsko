@@ -9,7 +9,7 @@
       <div class="col-md varsko-information_2">
 
 <img src="img/logo_w.png" alt="" class="img-responsive" style="margin-top:12.5%;">
-  <div class="col-md-6"><p><i>Få information via SMS eller mail om nationella olyckor och katastrofer eller för dig relevanta kommuner och län.</i><p></div>
+  <div class="col-md-6"><p><i>Få information via SMS eller mail om olyckor och katastrofer i för dig relevanta kommuner och län.</i><p></div>
   
          
       </div>

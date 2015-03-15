@@ -38,6 +38,7 @@
 						<img src="img/sms_mail_b.png" alt="" style="height:12%;">
 						<h2>SMS &amp; Mail</h2>
 					</label>
+					<p>Välj något av alternativen ovan.</p>
 				</div>
 				<div class="row">
 					<div class="col-md-4 col-md-offset-4">
@@ -98,7 +99,7 @@
 						<label for="pollutioncheckbox" class="checkbox-label">
 							<img src="img/airpollution_black.png" alt="" style="height:3%;padding-left:5px;padding-right:10px;">Utsläpp (luft/vatten)
 						</label>
-
+<p>Avmarkera de områden du inte är intresserade av</p>
 					</div>
 				</div>
 				<button style="float: right" href="#veri" aria-controls="messages" role="tab" data-toggle="tab" class="btn btn-default btn-next" type="button">Nästa</button>
