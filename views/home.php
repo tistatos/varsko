@@ -9,7 +9,7 @@
       <div class="col-md varsko-information_2">
 
 <img src="img/logo_w.png" alt="" class="img-responsive" style="margin-top:12.5%;">
-  <div class="col-md-6"><p><i>Bli informerad om olyckor och katastrofer via SMS och mail.</i><p></div>
+  <div class="col-md-6"><p><i>Få information via SMS eller mail om nationella olyckor och katastrofer eller för dig relevanta kommuner och län.</i><p></div>
   
          
       </div>
@@ -54,8 +54,10 @@ sociala medier
         </h1>
 
       <p>
-        Varsko låter dig få reda på samhällsinformation via sms eller mail. Genom att ni anger ett kontaktsätt samt ett intresseområde kan vi meddela er om något händer i erat område. Tjänsten är kostnadsfri samt fri från reklam. Ingen data om er som person sparas eller delas.
-      </p>
+       Det finns idag problem med att effektivt nå ut med information till allmänheten. De varningsnotiser som idag förmedlas via TV och radio riskeras att omärkt passera förbi då ett paradigmskifte skett kring tillgängliga informationskanaler. Vår idé ska ersätta det förgångna systemet, vår lösning är VARSKO!
+<br/><br/>
+VARSKO är en tjänst som genom SMS och mail informerar den enskilde om nationella olyckor och katastrofer eller ett urval händelser rörande dina relevanta kommuner och län. 
+  </p>
 
 
       </div>
