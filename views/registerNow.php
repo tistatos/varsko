@@ -13,13 +13,6 @@ if (count($_POST)) {
     $input->filter('Username', 'Email', 'Password', 'lan', 'kommun');
     $user->register($input);
 
-    echo json_encode(
-        array(
-            'error'   => $user->log->getErrors(),
-            'confirm' => 'User Registered Successfully. You may login now!',
-            'form'    => $user->log->getFormErrors(),
-        )
-    );
     //mail ( $input->get('Email') , "Varsko" , "gratz duude", "From: webmaster@varsko.se");
     //TODO: $userInfo->filter('');
 }
@@ -29,3 +22,7 @@ else
 }
 
 ?>
+
+
+<h1>Klart!</h1>
+<p>Kanonbra, nu är det färdigt!</p>

@@ -117,13 +117,6 @@
 					<button style="float: right"href="#vad" aria-controls="messages" role="tab" data-toggle="tab" class="btn btn-default btn-prev" type="submit">Föregående</button>
 				</form>
 				</div>
-
-			<div role="tabpanel" class="tab-pane" id="klar">
-				<h1>Klart!</h1>
-				<p>Kanonbra, nu är det färdigt!</p>
-				<a href="<?php echo $base; ?>">Återvänd</a>
-
-			</div>
 		</div>
 	</div>
 	<div class="col-md-1"></div>
