@@ -1,3 +1,3 @@
 # varsko
-hej
+hej, vi ska till San Fransisco!
 
